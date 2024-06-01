@@ -17,8 +17,28 @@
             "name": "lowLevelEncounter",
             "entries": [
                 {
-                    "m": 33,
+                    "m": 8,
                     "v": "zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
                 },
                 {
                     "m": 65,
