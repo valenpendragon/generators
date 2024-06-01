@@ -8,9 +8,24 @@
             "entries": [
                 {
                     "m": 4,
-                    "v": "Low Level: {}"
+                    "v": "Low Level: {lowLevelEncounter}"
                 },
                 "High Level: {}"
+            ]
+        }
+        {
+            "name": "lowLevelEncounter",
+            "entries": [
+                {
+                    "m": 33,
+                    "v": "zombie"
+                },
+                {
+                    "m": 65,
+                    "v": "skeleton"
+                },
+                "shroud",
+                "ghoul"
             ]
         }
     ]
