@@ -1,0 +1,72 @@
+{
+    "name": "Tiny Prep Generator v1.5.0",
+    "resultPattern": "Perform: {prepType}",
+    "tables": [
+        {
+            "name": "prepType",
+            "entries": [
+                "Update my Plotline based on the current vector of gameplay and what doors opened and/or closed last session ",
+                "Update a Character Loop or Loopy Plans and spin out new plot threads from Plot ",
+                "Build a new Campaign Logger Generator for instances where I drew a blank on next steps, improvisation, or friction last session ",
+                "Polish/Build/Polish: {polishItem}",
+                "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}",
+                "Create something completely new: {newItem}",
+                "Refine something already in the world: {refineItem}",
+                "Draw a Map or create a token for VTT use.",
+                "Write lore: {writeLore}"
+            ]
+        },
+        {
+            "name": "polishItem",
+            "entries": [
+                "First encounter for a session",
+                "5RD for a session",
+                "3 Round Combat Plan for an Encounter",
+                "Hooks",
+                "Twists",
+                "Loops",
+                "Item",
+                "NPC/Creature"
+            ]
+        },
+        {
+            "name": "lineBlock",
+            "entries": [
+                "NPC (general)",
+                "Object",
+                "Enemy NPC/creature",
+                "Loot item",
+                "Room for a dungeon map"
+            ]
+        },
+        {
+            "name": "newItem",
+            "entries": [
+                "Create a new Location",
+                "Add a new 3-Line or 4-Line character",
+                "Add a new 3-Line of 4-Line object to the world",
+                "Add a new legendary object to the world"
+            ]
+        },
+        {
+            "name": "refineItem",
+            "entries": [
+                "Add something to an character's profile",
+                "Refine an existing item",
+                "Refine an existing character/being",
+                "Refine a location",
+                "Write a set of clues: {dice:2d4+8}"
+            ]
+        },
+        {
+            "name": "writeLore",
+            "entries": [
+                "Distant history",
+                "Recent history",
+                "Legendary story",
+                "Character backstory",
+                "Local bedtime stories"
+            ]
+        }
+    ]
+}
