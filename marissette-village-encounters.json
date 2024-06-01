@@ -10,7 +10,7 @@
                     "m": 4,
                     "v": "Low Level: {lowLevelEncounter}"
                 },
-                "High Level: {}"
+                "High Level: {highLevelEncounter}"
             ]
         },
         {
@@ -18,7 +18,7 @@
             "entries": [
                 {
                     "m": 33,
-                    "v": "zombie"
+                    "v": "zombie {zombieType}"
                 },
                 {
                     "m": 65,
@@ -26,6 +26,74 @@
                 },
                 "shroud",
                 "ghoul"
+            ]
+        },
+        {
+            "name": "highLevelEncounter",
+            "entries": [
+                {
+                    "m": 36,
+                    "v": "zombie {zombieType}"
+                },
+                {
+                    "m": 50,
+                    "v": "skeleton"
+                },
+                {
+                    "m": 2,
+                    "v": "shroud"
+                },
+                {
+                    "m": 2,
+                    "v": "ghoul"
+                },
+                "ghoul, darkhul",
+                "spectre",
+                "shadow",
+                "banshee",
+                "ghast",
+                "wight",
+                "will-o-wisp",
+                "wraith",
+                "ghost",
+                "myling"
+            ]
+        },
+        {
+            "name": "zombieType",
+            "entries": [
+                {
+                    "m": 45,
+                    "v": "human or human-passing"
+                },
+                {
+                    "m": 30,
+                    "v": "dwarf"
+                },
+                "fey elf",
+                "halfling",
+                "gnome",
+                {
+                    "m": 5,
+                    "v": "orc"
+                },
+                {
+                    "m": 2,
+                    "v": "bugbear"
+                },
+                {
+                    "m": 3,
+                    "v": "hobgoblin"
+                },
+                "goblin",
+                {
+                    "m": 2,
+                    "v": "goblin (shapeshifter)"
+                },
+                "ogre",
+                "hill giant",
+                "peryton",
+                "pegasus"
             ]
         }
     ]
