@@ -1,0 +1,5 @@
+{
+    "name": "Marissette Village Encounter Generator",
+    "resultPattern": "Encounter: {encounterResult}",
+    
+}
