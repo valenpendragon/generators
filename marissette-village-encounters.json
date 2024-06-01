@@ -1,5 +1,16 @@
 {
     "name": "Marissette Village Encounter Generator",
     "resultPattern": "Encounter: {encounterResult}",
-    
+    "tables": [
+        {
+            "name": "encounterResult",
+            "entries": [
+                {
+                    "m": 4,
+                    "v": "Low Level: {lowLevelEncounter}"
+                },
+                "High Level: {highLevelEncounter}"
+            ]
+        }
+    ]
 }
