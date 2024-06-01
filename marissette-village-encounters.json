@@ -1,16 +1,16 @@
 {
     "name": "Marissette Village Encounter Generator",
     "resultPattern": "Encounter: {encounterResult}",
-    "explanation": "This generator lists monster(s) that might be encountered while a party is exploring Marissette Village, Arvadarre.",
+    "explanation": "list of undead creatures in encounter",
     "tables": [
         {
             "name": "encounterResult",
             "entries": [
                 {
                     "m": 4,
-                    "v": "Low Level: {lowLevelEncounter}"
+                    "v": "Low Level: {}"
                 },
-                "High Level: {highLevelEncounter}"
+                "High Level: {}"
             ]
         }
     ]
