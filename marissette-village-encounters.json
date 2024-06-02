@@ -3,8 +3,6 @@
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
     "to do": [
-        "Shroud numbers need to generated in high level encounter.",
-        "Numbers for ghouls in high level encounters."
     ],
     "tables": [
         {
