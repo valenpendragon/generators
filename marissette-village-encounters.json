@@ -221,18 +221,18 @@
             "entries": [
                 {
                     "m": 54,
-                    "v": "human-passing"
+                    "v": "human-passing ({skeletalChampion})"
                 },
                 {
                     "m": 27,
-                    "v": "dwarf"
+                    "v": "dwarf ({skeletalChampion})"
                 },
                 "fey elf",
-                "halfling",
-                "gnome",
+                "halfling ({skeletalChampion})",
+                "gnome ({skeletalChampion})",
                 {
                     "m": 5,
-                    "v": "orc"
+                    "v": "orc ({skeletalChampion})"
                 },
                 "bugbear",
                 {
@@ -276,6 +276,19 @@
                     "v": "civilian"
                 },
                 "knight"
+            ]
+        },
+        {
+            "name": "skeletalChampion",
+            "entries": [
+                {
+                    "m": 7,
+                    "v": "civilian"
+                },
+                {
+                    "m": 3,
+                    "v": "champion"
+                }
             ]
         }
     ]
