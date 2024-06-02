@@ -61,8 +61,28 @@
             "name": "highLevelEncounter",
             "entries": [
                 {
-                    "m": 36,
+                    "m": 5,
                     "v": "zombie {zombieType}"
+                },
+                {
+                    "m": 6,
+                    "v": "zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 6,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 6,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 6,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                },
+                {
+                    "m": 6,
+                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
                 },
                 {
                     "m": 50,
