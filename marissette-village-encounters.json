@@ -30,27 +30,51 @@
                 },
                 {
                     "m": 5,
-                    "v": "zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombies: {zombieType}, {zombieType}"
                 },
                 {
                     "m": 5,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}"
                 },
                 {
                     "m": 5,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}"
                 },
                 {
                     "m": 5,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
                 },
                 {
                     "m": 5,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
                 },
                 {
-                    "m": 65,
-                    "v": "skeletal {skeletonType}"
+                    "m": 4,
+                    "v": "skeletons: {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 8,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 12,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 17,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 12,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 8,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 4,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
                 },
                 "{shroudType} shroud",
                 "ghoul"
