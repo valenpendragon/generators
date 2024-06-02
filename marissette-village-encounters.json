@@ -54,7 +54,7 @@
                     "m": 65,
                     "v": "skeletal {skeletonType}"
                 },
-                "shroud",
+                "{shroudType} shroud",
                 "ghoul"
             ]
         },
@@ -71,7 +71,7 @@
                 },
                 {
                     "m": 2,
-                    "v": "shroud"
+                    "v": "{shroudType} shroud"
                 },
                 {
                     "m": 2,
@@ -159,6 +159,25 @@
                 "dire wolf, worg, or wolf",
                 "peryton",
                 "pegasus"
+            ]
+        },
+        {
+            "name": "shroudType",
+            "entries": [
+                {
+                    "m": 8,
+                    "v": "human-passing"
+                },
+                {
+                    "m": 8,
+                    "v": "dwarf"
+                },
+                "halfling",
+                "gnome",
+                {
+                    "m": 2,
+                    "v": "orc"
+                }
             ]
         }
     ]
