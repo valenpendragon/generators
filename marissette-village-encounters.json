@@ -3,7 +3,6 @@
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
     "to do": [
-        "Humanoid undead need to separated into military and civilians.",
         "Shroud numbers need to generated in low level encounter.",
         "Shroud numbers need to generated in high level encounter.",
         "Numbers for ghouls, specters, shadows, and wights."
