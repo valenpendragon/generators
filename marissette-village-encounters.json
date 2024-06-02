@@ -272,7 +272,7 @@
             "name": "zombieKnight",
             "entries": [
                 {
-                    "m": 9,
+                    "m": 11,
                     "v": "civilian"
                 },
                 "knight"
@@ -282,13 +282,10 @@
             "name": "skeletalChampion",
             "entries": [
                 {
-                    "m": 7,
+                    "m": 9,
                     "v": "civilian"
                 },
-                {
-                    "m": 3,
-                    "v": "champion"
-                }
+                "champion"
             ]
         }
     ]
