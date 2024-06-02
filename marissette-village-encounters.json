@@ -182,18 +182,18 @@
             "entries": [
                 {
                     "m": 45,
-                    "v": "human-passing"
+                    "v": "human-passing ({zombieKnight})"
                 },
                 {
                     "m": 30,
-                    "v": "dwarf"
+                    "v": "dwarf ({zombieKnight})"
                 },
                 "fey elf",
-                "halfling",
-                "gnome",
+                "halfling ({zombieKnight})",
+                "gnome ({zombieKnight})",
                 {
                     "m": 5,
-                    "v": "orc"
+                    "v": "orc ({zombieKnight})"
                 },
                 {
                     "m": 2,
@@ -207,7 +207,7 @@
                     "m": 3,
                     "v": "goblin"
                 },
-                "goblin (shapeshifter)",
+                "goblin (shapeshifter) ({zombieKnight})",
                 "dire wolf or worg",
                 "wolf",
                 "ogre",
@@ -266,6 +266,16 @@
                     "m": 2,
                     "v": "orc"
                 }
+            ]
+        },
+        {
+            "name": "zombieKnight",
+            "entries": [
+                {
+                    "m": 9,
+                    "v": "civilian"
+                },
+                "knight"
             ]
         }
     ]
