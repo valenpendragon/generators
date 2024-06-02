@@ -42,7 +42,7 @@
                 },
                 {
                     "m": 65,
-                    "v": "skeleton"
+                    "v": "skeletal {skeletonType}"
                 },
                 "shroud",
                 "ghoul"
@@ -57,7 +57,7 @@
                 },
                 {
                     "m": 50,
-                    "v": "skeleton"
+                    "v": "skeletal {skeletonType}"
                 },
                 {
                     "m": 2,
@@ -84,7 +84,7 @@
             "entries": [
                 {
                     "m": 45,
-                    "v": "human or human-passing"
+                    "v": "human-passing"
                 },
                 {
                     "m": 30,
@@ -105,15 +105,48 @@
                     "m": 3,
                     "v": "hobgoblin"
                 },
-                "goblin",
                 {
-                    "m": 2,
-                    "v": "goblin (shapeshifter)"
+                    "m": 3,
+                    "v": "goblin"
                 },
+                "goblin (shapeshifter)",
                 "dire wolf or worg",
                 "wolf",
                 "ogre",
                 "hill giant",
+                "peryton",
+                "pegasus"
+            ]
+        },
+        {
+            "name": "skeletonType",
+            "entries": [
+                {
+                    "m": 54,
+                    "v": "human-passing"
+                },
+                {
+                    "m": 27,
+                    "v": "dwarf"
+                },
+                "fey elf",
+                "halfling",
+                "gnome",
+                {
+                    "m": 5,
+                    "v": "orc"
+                },
+                "bugbear",
+                {
+                    "m": 3,
+                    "v": "hobgoblin"
+                },
+                {
+                    "m": 3,
+                    "v": "goblin"
+                },
+                "goblin (shapeshifter)",
+                "dire wolf, worg, or wolf",
                 "peryton",
                 "pegasus"
             ]
