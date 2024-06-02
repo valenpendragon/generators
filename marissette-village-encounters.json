@@ -155,14 +155,10 @@
                     "m": 3,
                     "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
                 },
-                {
-                    "m": 2,
-                    "v": "{shroudType} shroud"
-                },
-                {
-                    "m": 2,
-                    "v": "ghoul"
-                },
+                "{shroudType} shroud",
+                "{shroudType}, {shroudType} shrouds",
+                "ghoul",
+                "2 ghouls",
                 "ghoul, darkhul",
                 "spectre",
                 "shadow",
