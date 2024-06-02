@@ -107,8 +107,56 @@
                     "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
                 },
                 {
-                    "m": 50,
-                    "v": "skeletal {skeletonType}"
+                    "m": 8,
+                    "v": "zombie {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombies: {zombieType}, {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
+                },
+                {
+                    "m": 5,
+                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
+                },
+                {
+                    "m": 3,
+                    "v": "skeletons: {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 6,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 9,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 14,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 9,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 6,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                },
+                {
+                    "m": 3,
+                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
                 },
                 {
                     "m": 2,
