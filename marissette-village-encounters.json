@@ -79,52 +79,28 @@
             "name": "highLevelEncounter",
             "entries": [
                 {
-                    "m": 5,
-                    "v": "zombie {zombieType}"
+                    "m": 6,
+                    "v": "zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 6,
-                    "v": "zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 6,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 6,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 6,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
+                    "v": "zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 6,
-                    "v": "zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}, zombie {zombieType}"
-                },
-                {
-                    "m": 8,
-                    "v": "zombie {zombieType}"
-                },
-                {
-                    "m": 5,
-                    "v": "zombies: {zombieType}, {zombieType}"
-                },
-                {
-                    "m": 5,
-                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}"
-                },
-                {
-                    "m": 5,
-                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}"
-                },
-                {
-                    "m": 5,
-                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
-                },
-                {
-                    "m": 5,
-                    "v": "zombies: {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}, {zombieType}"
+                    "v": "zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight}), zombie {zombieType} ({zombieKnight})"
                 },
                 {
                     "m": 3,
@@ -175,18 +151,18 @@
             "entries": [
                 {
                     "m": 45,
-                    "v": "human-passing ({zombieKnight})"
+                    "v": "human-passing"
                 },
                 {
                     "m": 30,
-                    "v": "dwarf ({zombieKnight})"
+                    "v": "dwarf"
                 },
                 "fey elf",
-                "halfling ({zombieKnight})",
-                "gnome ({zombieKnight})",
+                "halfling",
+                "gnome",
                 {
                     "m": 5,
-                    "v": "orc ({zombieKnight})"
+                    "v": "orc"
                 },
                 {
                     "m": 2,
@@ -200,7 +176,7 @@
                     "m": 3,
                     "v": "goblin"
                 },
-                "goblin (shapeshifter) ({zombieKnight})",
+                "goblin (shapeshifter)",
                 "dire wolf or worg",
                 "wolf",
                 "ogre",
