@@ -105,31 +105,31 @@
                 },
                 {
                     "m": 3,
-                    "v": "skeletons: {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 6,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 9,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 14,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 9,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 6,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 {
                     "m": 3,
-                    "v": "skeletons: {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}, {skeletonType}"
+                    "v": "skeletons: {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion}), {skeletonType} ({skeletalChampion})"
                 },
                 "{shroudType} shroud",
                 "{shroudType}, {shroudType} shrouds",
@@ -191,18 +191,18 @@
             "entries": [
                 {
                     "m": 54,
-                    "v": "human-passing ({skeletalChampion})"
+                    "v": "human-passing"
                 },
                 {
                     "m": 27,
-                    "v": "dwarf ({skeletalChampion})"
+                    "v": "dwarf"
                 },
                 "fey elf",
-                "halfling ({skeletalChampion})",
-                "gnome ({skeletalChampion})",
+                "halfling",
+                "gnome",
                 {
                     "m": 5,
-                    "v": "orc ({skeletalChampion})"
+                    "v": "orc"
                 },
                 "bugbear",
                 {
