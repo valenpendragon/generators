@@ -3,14 +3,15 @@
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
     "to do": [
-        "Remove Zombie Knight and Skeletal Champion from low level encounters."
+        "Remove Zombie Knight and Skeletal Champion from low level encounters.",
+        "Restore 4x or higher weight to low level encounters after testing wraps up."
     ],
     "tables": [
         {
             "name": "encounterResult",
             "entries": [
                 {
-                    "m": 4,
+                    "m": 1,
                     "v": "Low Level: {lowLevelEncounter}"
                 },
                 "High Level: {highLevelEncounter}"
