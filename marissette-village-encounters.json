@@ -3,6 +3,7 @@
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
     "to do": [
+        "Remove Zombie Knight and Skeletal Champion from low level encounters."
     ],
     "tables": [
         {
