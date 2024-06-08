@@ -3,7 +3,8 @@
     "resultPattern": "NPC Decision: {decisionResult}",
     "explanation": "Makes an NPC decision based on a 3d6 bell curve with low values as negative results and high values as positive results.",
     "to do": [
-
+        "Adjust this curve for positive results from skill sucesses and/or party behavior.",
+        "Adjust this curve for negative results from skill failures and/or party behavior."
     ],
     "tables": [
         {
