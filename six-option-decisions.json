@@ -1,0 +1,39 @@
+{
+    "name": "Six Option Decisions Generator",
+    "resultPattern": "NPC Decision: {decisionResult}",
+    "explanation": "Makes an NPC decision based on a 3d6 bell curve with low values as negative results and high values as positive results.",
+    "to do": [
+
+    ],
+    "tables": [
+        {
+            "name": "decisionResult",
+            "entries": [
+                {
+                    "m": 4,
+                    "v": "Definite No with repercussions for asking. 'No, And here is your punishment for asking,'"
+                },
+                {
+                    "m": 29,
+                    "v": "Definite No, i.e. 'No! End of discussion.'"
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional No, i.e. 'No, but (condition that could change decision)'."
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional Yes, i.e. 'Yes, but (condition that could change decision).'"
+                },
+                {
+                    "m": 29,
+                    "v": "Definite Yes, i.e. 'Yes, now go do it. End of discussion.'"
+                },
+                {
+                    "m": 4,
+                    "v": "Definite Yes with benefits, i.e. 'Yes, and how can I help?'"
+                },
+            ]
+        }
+    ]
+}
