@@ -1,7 +1,7 @@
 {
     "name": "Six Option Decisions Generator",
     "resultPattern": "NPC Decision: {decisionResult}",
-    "explanation": "Makes an NPC decision based on a 3d6 bell curve with low values as negative results and high values as positive results.",
+    "explanation": "Models an NPC decision using Negative (3d6-3), Neutral (3d6), or Positive (3d6+3) with answers 'No, And', 'No', 'No but', 'Yes but', 'Yes', and 'Yes And'.",
     "to do": [
         "Adjust this curve for positive results from skill sucesses and/or party behavior.",
         "Adjust this curve for negative results from skill failures and/or party behavior."
