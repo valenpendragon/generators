@@ -1,6 +1,6 @@
 {
     "name": "Six Option Decisions Generator",
-    "resultPattern": "NPC Decision: \nNeutral: \t{neutralResult}\nNegative: \t{negativeResult}\nPositive: \t{positiveResult}",
+    "resultPattern": "NPC Decision: \n\nNeutral: \t{neutralResult}\n\nNegative: \t{negativeResult}\n\nPositive: \t{positiveResult}",
     "explanation": "Models an NPC decision using Negative (3d6-3), Neutral (3d6), or Positive (3d6+3) with answers 'No, And', 'No', 'No but', 'Yes but', 'Yes', and 'Yes And'.",
     "to do": [
         "Adjust this curve for positive results from skill sucesses and/or party behavior.",
@@ -12,27 +12,27 @@
             "entries": [
                 {
                     "m": 4,
-                    "v": "Definite No with repercussions for asking.\n\tExample: No, and I'm going to freeze you in carbonite and give you to Boba Fett."
+                    "v": "Definite No with repercussions for asking.\nExample: No, and I'm going to freeze you in carbonite and give you to Boba Fett."
                 },
                 {
                     "m": 29,
-                    "v": "Definite No.\n\tExample: No! End of discussion."
+                    "v": "Definite No.\nExample: No! End of discussion."
                 },
                 {
                     "m": 67,
-                    "v": "Provisional No.\n\tExample: No, but bringing me the head of the Resistance Leader might change my mind."
+                    "v": "Provisional No.\nExample: No, but bringing me the head of the Resistance Leader might change my mind."
                 },
                 {
                     "m": 67,
-                    "v": "Provisional Yes.\n\tExample: Yes, but the Resistance keeps causing me problems that could prevent this from working."
+                    "v": "Provisional Yes.\nExample: Yes, but the Resistance keeps causing me problems that could prevent this from working."
                 },
                 {
                     "m": 29,
-                    "v": "Definite Yes.\n\tExample: Yes, now go do it. End of discussion."
+                    "v": "Definite Yes.\nExample: Yes, now go do it. End of discussion."
                 },
                 {
                     "m": 4,
-                    "v": "Definite Yes with benefits.\n\tExample: Yes, and I'll send a detachment of stormtroopers lead by the Grand Inquisitor to assist."
+                    "v": "Definite Yes with benefits.\nExample: Yes, and I'll send a detachment of stormtroopers lead by the Grand Inquisitor to assist."
                 }
             ]
         },
@@ -41,34 +41,57 @@
             "entries": [
                 {
                     "m": 4,
-                    "v": "Definite No with repercussions for asking, e.g. 'No, And here is your punishment for asking.'"
+                    "v": "Definite No with repercussions for asking.\nExample: No, and I'm going to freeze you in carbonite and give you to Boba Fett."
                 },
                 {
                     "m": 29,
-                    "v": "Definite No, e.g. 'No! End of discussion.'"
+                    "v": "Definite No.\nExample: No! End of discussion."
                 },
                 {
                     "m": 67,
-                    "v": "Provisional No, e.g. 'No, but (condition that could change decision)'."
+                    "v": "Provisional No.\nExample: No, but bringing me the head of the Resistance Leader might change my mind."
                 },
                 {
                     "m": 67,
-                    "v": "Provisional Yes, e.g. 'Yes, but (condition that could change decision).'"
+                    "v": "Provisional Yes.\nExample: Yes, but the Resistance keeps causing me problems that could prevent this from working."
                 },
                 {
                     "m": 29,
-                    "v": "Definite Yes, e.g. 'Yes, now go do it. End of discussion.'"
+                    "v": "Definite Yes.\nExample: Yes, now go do it. End of discussion."
                 },
                 {
                     "m": 4,
-                    "v": "Definite Yes with benefits, e.g. 'Yes, and how can I help?'"
+                    "v": "Definite Yes with benefits.\nExample: Yes, and I'll send a detachment of stormtroopers lead by the Grand Inquisitor to assist."
                 }
             ]
         },
         {
             "name": "positiveResult",
             "entries": [
-                "testing positive"
+                {
+                    "m": 4,
+                    "v": "Definite No with repercussions for asking.\nExample: No, and I'm going to freeze you in carbonite and give you to Boba Fett."
+                },
+                {
+                    "m": 29,
+                    "v": "Definite No.\nExample: No! End of discussion."
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional No.\nExample: No, but bringing me the head of the Resistance Leader might change my mind."
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional Yes.\nExample: Yes, but the Resistance keeps causing me problems that could prevent this from working."
+                },
+                {
+                    "m": 29,
+                    "v": "Definite Yes.\nExample: Yes, now go do it. End of discussion."
+                },
+                {
+                    "m": 4,
+                    "v": "Definite Yes with benefits.\nExample: Yes, and I'll send a detachment of stormtroopers lead by the Grand Inquisitor to assist."
+                }
             ]
         }
     ]
