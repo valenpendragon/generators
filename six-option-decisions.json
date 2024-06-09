@@ -39,7 +39,30 @@
         {
             "name": "negativeResult",
             "entries": [
-                "testing negative"
+                {
+                    "m": 4,
+                    "v": "Definite No with repercussions for asking, e.g. 'No, And here is your punishment for asking.'"
+                },
+                {
+                    "m": 29,
+                    "v": "Definite No, e.g. 'No! End of discussion.'"
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional No, e.g. 'No, but (condition that could change decision)'."
+                },
+                {
+                    "m": 67,
+                    "v": "Provisional Yes, e.g. 'Yes, but (condition that could change decision).'"
+                },
+                {
+                    "m": 29,
+                    "v": "Definite Yes, e.g. 'Yes, now go do it. End of discussion.'"
+                },
+                {
+                    "m": 4,
+                    "v": "Definite Yes with benefits, e.g. 'Yes, and how can I help?'"
+                }
             ]
         },
         {
