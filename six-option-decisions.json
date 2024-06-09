@@ -66,14 +66,10 @@
             "entries": [
                 {
                     "m": 4,
-                    "v": "Definite No with repercussions for asking.\nExample: No, and I'm going to freeze you in carbonite and give you to Boba Fett."
-                },
-                {
-                    "m": 29,
                     "v": "Definite No.\nExample: No! End of discussion."
                 },
                 {
-                    "m": 67,
+                    "m": 29,
                     "v": "Provisional No.\nExample: No, but bringing me the head of the Resistance Leader might change my mind."
                 },
                 {
@@ -81,11 +77,11 @@
                     "v": "Provisional Yes.\nExample: Yes, but the Resistance keeps causing me problems that could prevent this from working."
                 },
                 {
-                    "m": 29,
+                    "m": 81,
                     "v": "Definite Yes.\nExample: Yes, now go do it. End of discussion."
                 },
                 {
-                    "m": 4,
+                    "m": 19,
                     "v": "Definite Yes with benefits.\nExample: Yes, and I'll send a detachment of stormtroopers lead by the Grand Inquisitor to assist."
                 }
             ]
