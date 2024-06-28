@@ -1,11 +1,10 @@
 {
     "name": "Big Five Personality Generator",
-    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.",
+    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.",
     "explanation": "This generator uses the big five personality model to quickly generate a peronality that is not governed by alignment. The options for each category use 2d6.",
     "authors": "valenpendragon from MT Black's table used under CC-BY license",
     "license": "CC-BY",
     "to do": [
-        "Sociability response.",
         "Agreeableness response.",
         "Temperament response."
     ],
@@ -89,6 +88,47 @@
                 {
                     "m": 3,
                     "v": "Persistent"
+                }
+            ]
+        },
+        {
+            "name": "sociabilityResult",
+            "entries": [
+                {
+                    "m": 3,
+                    "v": "Reserved"
+                },
+                {
+                    "m": 6,
+                    "v": "Solitary"
+                },
+                {
+                    "m": 8,
+                    "v": "Quiet"
+                },
+                {
+                    "m": 11,
+                    "v": "Guarded"
+                },
+                {
+                    "m": 44,
+                    "v": "No response"
+                },
+                {
+                    "m": 11,
+                    "v": "Cheerful"
+                },
+                {
+                    "m": 8,
+                    "v": "Sociable"
+                },
+                {
+                    "m": 6,
+                    "v": "Energetic"
+                },
+                {
+                    "m": 3,
+                    "v": "Talkative"
                 }
             ]
         }
