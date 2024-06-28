@@ -3,9 +3,7 @@
     "resultPattern": "NPC Decision: \n\nNeutral: \t{neutralResult}\n\nNegative: \t{negativeResult}\n\nPositive: \t{positiveResult}",
     "explanation": "Models an NPC decision using Negative (3d6-3), Neutral (3d6), or Positive (3d6+3) with answers 'No, And', 'No', 'No but', 'Yes but', 'Yes', and 'Yes And'.",
     "to do": [
-        "Adjust this curve for positive results from skill sucesses and/or party behavior.",
-        "Adjust this curve for negative results from skill failures and/or party behavior."
-    ],
+        ],
     "tables": [
         {
             "name": "neutralResult",
