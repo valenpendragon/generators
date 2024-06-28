@@ -1,0 +1,31 @@
+{
+    "name": "TFT Quick Character Generator",
+    "resultPattern": "{b|Class:} {classResult}.",
+    "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
+    "to do": [
+        "Basic Class",
+        "Expanding Basic Class to add Hero types and Wizard types.",
+        "Expanding Fighter types.",
+        "Adding Unusual Fighter features",
+        "Add racial heritage.",
+        "Add character motivation",
+        "Add character personality",
+        "Add other traits to personality"
+    ],
+    "tables": [
+        {
+            "name": "classResult",
+            "explanation": "This table generates the basic class, Hero or Wizard.",
+            "entries": [
+                {
+                    "m": 2,
+                    "V": "Wizard"
+                },
+                {
+                    "m": 4,
+                    "v": "Hero"
+                }
+            ]
+        }
+    ]
+}
