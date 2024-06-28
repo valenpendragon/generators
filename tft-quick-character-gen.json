@@ -1,11 +1,10 @@
 {
     "name": "TFT Quick Character Generator",
-    "resultPattern": "{b|Class:} {classResult}.\n{b|Heritage:} {heritageResult}.",
+    "resultPattern": "{b|Class:} {classResult}.\n{b|Heritage:} {heritageResult}.\n{b|Motivation:} {motivationResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
     "to do": [
-        "Add character motivation",
         "Add character personality",
         "Add other traits to personality",
         "Expand Unusual Weapon talent to include options."
@@ -227,6 +226,44 @@
                     "v": "Halfling"
                 }
 
+            ]
+        },
+        {
+            "name": "motivationResult",
+            "explanation": "This table determines what motivates this character.",
+            "entries": [
+                {
+                    "m": 5,
+                    "v": "Escaping an unhappy life"
+                },
+                {
+                    "m": 12,
+                    "v": "Desire to find purpose"
+                },
+                {
+                    "m": 21,
+                    "v": "Desire to right wrongs"
+                },
+                {
+                    "m": 37,
+                    "v": "Desire for adventure"
+                },
+                {
+                    "m": 21,
+                    "v": "Desire for wealth"
+                },
+                {
+                    "m": 7,
+                    "v": "Desire for power"
+                },
+                {
+                    "m": 7,
+                    "v": "Desire for learning"
+                },
+                {
+                    "m": 2,
+                    "v": "Desire for combat"
+                }
             ]
         }
     ]
