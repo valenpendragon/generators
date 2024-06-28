@@ -31,9 +31,9 @@
             "name": "wizardType",
             "explanation": "This subtable refines the type of wizard generated.",
             "entries": [
-                "Martial Wizard (IQ over 11)",
-                "Martial Wizard (ST over 11)",
-                "Wizardly Thief"
+                "Martial Wizard (IQ over 11). Optional: {wizardFeature}",
+                "Martial Wizard (ST over 11). Optional: {wizardFeature}",
+                "Wizardly Thief. Optional: {wizardFeature}"
             ]
         },
         {
@@ -112,7 +112,7 @@
                 },
                 {
                     "m": 13,
-                    "v": "Speaks 1+ important language other their own (may require Literacy)"
+                    "v": "Speaks 1 important language other their own (may require Literacy)"
                 },
                 {
                     "m": 13,
@@ -141,6 +141,44 @@
                 {
                     "m": 2,
                     "v": "Has an Unusual Weapon talent"
+                }
+            ]
+        },
+        {
+            "name": "wizardFeature",
+            "explanation": "Adds an optional feature to wizards to increase variety.  Use this feature to make more interesting wizards.",
+            "entries": [
+                {
+                    "m": 8,
+                    "v": "Nautical Background: pick 2+ from Boating, Seamanship, Swimming, and Diving"
+                },
+                {
+                    "m": 19,
+                    "v": "Country background: pick 2+ from Driver, Animal Handler, Vet, and Horsemanship"
+                },
+                {
+                    "m": 31,
+                    "v": "Fights with a sword (and wants a silver sword)"
+                },
+                {
+                    "m": 14,
+                    "v": "Literate and carries a book and wizard's chest whenever possible"
+                },
+                {
+                    "m": 11,
+                    "v": "Speaks 1 important language other their own (may require Literacy)"
+                },
+                {
+                    "m": 8,
+                    "v": "Speaks 2 important languages other their own (may require Literacy)"
+                },
+                {
+                    "m": 6,
+                    "v": "Pick 1 from Physicker, Scholar, or Mathematician"
+                },
+                {
+                    "m": 3,
+                    "v": "Proto-adept. Literate, IQ 13+"
                 }
             ]
         }
