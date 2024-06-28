@@ -135,7 +135,7 @@
                 },
                 {
                     "m": 2,
-                    "v": "Has an Unusual Weapon talent"
+                    "v": "Has Unusual Weapon talent: unusualWeaponType}"
                 }
             ]
         },
@@ -333,6 +333,23 @@
                 "Talkative",
                 "Thoughtless",
                 "Wise"
+            ]
+        },
+        {
+            "name": "unusualWeaponType",
+            "explanation": "This subtable picks an optional unusual weapon to expand the Fighter feature.",
+            "entries": [
+                "blowgun",
+                "bola, add Thrown Weapons talent",
+                "boomerang, add Thrown Weapons talent",
+                "cestus",
+                "lasso",
+                "net and trident, add Pole Weapons talent",
+                "nunchuks",
+                "quarterstaff",
+                "sha-ken, add Thrown Weapons",
+                "spear thrower, add Pole Weapons or Thrown Weapons",
+                "whip"
             ]
         }
     ]
