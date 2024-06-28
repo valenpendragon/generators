@@ -1,6 +1,6 @@
 {
     "name": "TFT Quick Character Generator",
-    "resultPattern": "{b|Class:} {classResult}.\n{b|Heritage:} {heritageResult}.\n{b|Motivation:} {motivationResult}.",
+    "resultPattern": "{b|Class:} {classResult}.\n{b|Heritage:} {heritageResult}.\n{b|Motivation:} {motivationResult}.\n{b|Traits:} {traitResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
@@ -264,6 +264,13 @@
                     "m": 2,
                     "v": "Desire for combat"
                 }
+            ]
+        },
+        {
+            "name": "traitResult",
+            "explanation": "This is a helper entry to generate multiple traits.",
+            "entries": [
+                "{i|Appearance:} {dice: 2d6}, {i|Bravery:} {dice: 2d6}, {i|Friendliness:} {dice: 2d6}, {i|Honesty:} {dice: 2d6}, {i|Mood:} {dice: 2d6}, {i|Empathy:} {dice: 2d6}"
             ]
         }
     ]
