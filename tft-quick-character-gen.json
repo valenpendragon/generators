@@ -7,6 +7,7 @@
     "to do": [
         "Expanding Fighter types.",
         "Adding Unusual Fighter features",
+        "Adding Unusual Wizard features",
         "Add racial heritage.",
         "Add character motivation",
         "Add character personality",
@@ -42,40 +43,52 @@
             "entries": [
                 {
                     "m": 2,
-                    "v": "Priest"
+                    "v": "Priest (Hero)"
                 },
                 {
                     "m": 7,
-                    "v": "Rogue"
+                    "v": "Rogue (Hero)"
                 },
                 {
                     "m": 17,
-                    "v": "Thief"
+                    "v": "Thief (Hero)"
                 },
                 {
                     "m": 12,
-                    "v": "Ranger"
+                    "v": "Ranger (Hero)"
                 },
                 {
                     "m": 37,
-                    "v": "Fighter"
+                    "v": "{fighterType} (Fighter)"
                 },
                 {
                     "m": 17,
-                    "v": "Scholar"
+                    "v": "Scholar (Hero)"
                 },
                 {
                     "m": 5,
-                    "v": "Healer"
+                    "v": "Healer (Hero)"
                 },
                 {
                     "m": 3,
-                    "v": "Spy"
+                    "v": "Spy (Hero)"
                 },
                 {
                     "m": 2,
-                    "v": "Merchant"
+                    "v": "Merchant (Hero)"
                 }
+            ]
+        },
+        {
+            "name": "fighterType",
+            "explanation": "This subtable refines the type of fighter hero generated.",
+            "entries": [
+                "Tank, IQ 8",
+                "Tank, IQ 9+",
+                "Barbarian",
+                "Mercenary",
+                "Blademaster",
+                "Leader"
             ]
         }
     ]
