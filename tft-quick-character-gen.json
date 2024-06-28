@@ -10,7 +10,8 @@
         "Add racial heritage.",
         "Add character motivation",
         "Add character personality",
-        "Add other traits to personality"
+        "Add other traits to personality",
+        "Expand Unusual Weapon talent to include options."
     ],
     "tables": [
         {
@@ -58,7 +59,7 @@
                 },
                 {
                     "m": 37,
-                    "v": "{fighterType} (Fighter)"
+                    "v": "{fighterType}"
                 },
                 {
                     "m": 17,
@@ -82,12 +83,66 @@
             "name": "fighterType",
             "explanation": "This subtable refines the type of fighter hero generated.",
             "entries": [
-                "Tank, IQ 8",
-                "Tank, IQ 9+",
+                "Fighter Tank, IQ 8",
+                "Fighter Tank, IQ 9+. Optional: {fighterFeature}",
                 "Barbarian",
-                "Mercenary",
-                "Blademaster",
-                "Leader"
+                "Mercenary. Optional: {fighterFeature}",
+                "Blademaster. Optional: {fighterFeature}",
+                "Leader. Optional: {fighterFeature}"
+            ]
+        },
+        {
+            "name": "fighterFeature",
+            "explanation": "Adds an optional unusual feature to the fighter being generated. Use this feature to adjust XP level.",
+            "entries": [
+                {
+                    "m": 5,
+                    "v": "Country background: pick 2+ from Driver, Animal Handler, Vet, and Horsemanship"
+                },
+                {
+                    "m": 12,
+                    "v": "Knows Alertness and Silent Movement"
+                },
+                {
+                    "m": 10,
+                    "v": "Knows 1+ non-combat spell(s) (may require Literacy)"
+                },
+                {
+                    "m": 12,
+                    "v": "Knows 1+ combat spell(s) (may require Literacy)"
+                },
+                {
+                    "m": 13,
+                    "v": "Speaks 1+ important language other their own (may require Literacy)"
+                },
+                {
+                    "m": 13,
+                    "v": "Has Climbing talent"
+                },
+                {
+                    "m": 12,
+                    "v": "Has Unarmed Combat I"
+                },
+                {
+                    "m": 10,
+                    "v": "Has Tactics talent. May be able to read maps"
+                },
+                {
+                    "m": 7,
+                    "v": "Has Unarmed Combat II+"
+                },
+                {
+                    "m": 5,
+                    "v": "Has Bard talent (may include Poet, Literacy, etc.)"
+                },
+                {
+                    "m": 3,
+                    "v": "Has Literacy and is interested in books"
+                },
+                {
+                    "m": 2,
+                    "v": "Has an Unusual Weapon talent"
+                }
             ]
         }
     ]
