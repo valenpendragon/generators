@@ -1,6 +1,6 @@
 {
     "name": "TFT Quick Character Generator",
-    "resultPattern": "{b|Class:} {classResult}.\nHeritage: {heritageResult}.",
+    "resultPattern": "{b|Class:} {classResult}.\n{b|Heritage:} {heritageResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
@@ -29,9 +29,9 @@
             "name": "wizardType",
             "explanation": "This subtable refines the type of wizard generated.",
             "entries": [
-                "Martial Wizard (IQ over 11). Optional: {wizardFeature}",
-                "Martial Wizard (ST over 11). Optional: {wizardFeature}",
-                "Wizardly Thief. Optional: {wizardFeature}"
+                "Martial Wizard (IQ over 11). {i|Optional: {wizardFeature}}",
+                "Martial Wizard (ST over 11). {i|Optional: {wizardFeature}}",
+                "Wizardly Thief. {i|Optional: {wizardFeature}}"
             ]
         },
         {
@@ -81,11 +81,11 @@
             "explanation": "This subtable refines the type of fighter hero generated.",
             "entries": [
                 "Fighter Tank, IQ 8",
-                "Fighter Tank, IQ 9+. Optional: {fighterFeature}",
+                "Fighter Tank, IQ 9+. {i|Optional: {fighterFeature}}",
                 "Barbarian",
-                "Mercenary. Optional: {fighterFeature}",
-                "Blademaster. Optional: {fighterFeature}",
-                "Leader. Optional: {fighterFeature}"
+                "Mercenary. {i|Optional: {fighterFeature}}",
+                "Blademaster. {i|Optional: {fighterFeature}}",
+                "Leader. {i|Optional: {fighterFeature}}"
             ]
         },
         {
