@@ -3,7 +3,6 @@
     "resultPattern": "{b|Class:} {classResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "to do": [
-        "Basic Class",
         "Expanding Basic Class to add Hero types and Wizard types.",
         "Expanding Fighter types.",
         "Adding Unusual Fighter features",
