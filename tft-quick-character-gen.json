@@ -5,7 +5,6 @@
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
     "to do": [
-        "Add other traits to personality",
         "Expand Unusual Weapon talent to include options."
     ],
     "tables": [
@@ -269,7 +268,71 @@
             "name": "traitResult",
             "explanation": "This is a helper entry to generate multiple traits.",
             "entries": [
-                "{i|Appearance:} {dice: 2d6}, {i|Bravery:} {dice: 2d6}, {i|Friendliness:} {dice: 2d6}, {i|Honesty:} {dice: 2d6}, {i|Mood:} {dice: 2d6}, {i|Empathy:} {dice: 2d6}"
+                "{i|Appearance:} {dice: 2d6}, {i|Bravery:} {dice: 2d6}, {i|Friendliness:} {dice: 2d6}, {i|Honesty:} {dice: 2d6}, {i|Mood:} {dice: 2d6}, {i|Empathy:} {dice: 2d6}.\n{i|Optional Traits: {optionalTraitResult}}"
+            ]
+        },
+        {
+            "name": "optionalTraitResult",
+            "explanation": "This another helper result to add three optional traits to the personality.",
+            "entries": [
+                "{optionalTrait}, {optionalTrait}, {optionalTrait}"
+            ]
+        },
+        {
+            "name": "optionalTrait",
+            "explanation": "This subtable generates actual personality traits.",
+            "entries": [
+                "Abrupt",
+                "Ambitious",
+                "Angry",
+                "Argumentative",
+                "Artistic",
+                "Assertive",
+                "Braggart",
+                "Calm",
+                "Crazed",
+                "Curious",
+                "Cynical",
+                "Determined",
+                "Disciplined",
+                "Discontented",
+                "Dramatic",
+                "Emotional",
+                "Enthusiastic",
+                "Envious",
+                "Formal",
+                "Friendly",
+                "Frugal",
+                "Fun-loving",
+                "Generous",
+                "Gloomy",
+                "Greedy",
+                "Humble",
+                "Hypochondriac",
+                "Intense",
+                "Joker",
+                "Kind",
+                "Mature",
+                "Morbid",
+                "Musical",
+                "Mystical",
+                "Naive",
+                "Obsessive",
+                "Optimistic",
+                "Pessimistic",
+                "Prudent",
+                "Quiet",
+                "Reliable",
+                "Rude",
+                "Schizophrenic",
+                "Servile",
+                "Show-off",
+                "Shrewd",
+                "Studious",
+                "Suspicious",
+                "Talkative",
+                "Thoughtless",
+                "Wise"
             ]
         }
     ]
