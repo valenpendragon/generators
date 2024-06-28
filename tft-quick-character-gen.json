@@ -2,6 +2,8 @@
     "name": "TFT Quick Character Generator",
     "resultPattern": "{b|Class:} {classResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
+    "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
+    "license": "Creative Commons 4.0. Attribution should include",
     "to do": [
         "Expanding Basic Class to add Hero types and Wizard types.",
         "Expanding Fighter types.",
@@ -22,7 +24,7 @@
                 },
                 {
                     "m": 4,
-                    "v": "Hero"
+                    "v": "{heroType}"
                 }
             ]
         },
@@ -33,6 +35,48 @@
                 "Martial Wizard (IQ over 11)",
                 "Martial Wizard (ST over 11)",
                 "Wizardly Thief"
+            ]
+        },
+        {
+            "name": "heroType",
+            "explanation": "This subtable refines the type of hero generated.",
+            "entries": [
+                {
+                    "m": 2,
+                    "v": "Priest"
+                },
+                {
+                    "m": 7,
+                    "v": "Rogue"
+                },
+                {
+                    "m": 17,
+                    "v": "Thief"
+                },
+                {
+                    "m": 12,
+                    "v": "Ranger"
+                },
+                {
+                    "m": 37,
+                    "v": "Fighter"
+                },
+                {
+                    "m": 17,
+                    "v": "Scholar"
+                },
+                {
+                    "m": 5,
+                    "v": "Healer"
+                },
+                {
+                    "m": 3,
+                    "v": "Spy"
+                },
+                {
+                    "m": 2,
+                    "v": "Merchant"
+                }
             ]
         }
     ]
