@@ -1,6 +1,6 @@
 {
     "name": "TFT Quick Character Generator",
-    "resultPattern": "{b|Class:} {classResult}.",
+    "resultPattern": "{b|Class:} {classResult}.\nHeritage: {heritageResult}.",
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
@@ -179,6 +179,55 @@
                     "m": 3,
                     "v": "Proto-adept. Literate, IQ 13+"
                 }
+            ]
+        },
+        {
+            "name": "heritageResult",
+            "explanation": "This table determines if the character is pure or hybrid heritage.",
+            "entries": [
+                {
+                    "m": 99,
+                    "v": "{heritageType}"
+                },
+                {
+                    "m": 1,
+                    "v": "{!heritageType}-{!heritageType}"
+                }
+            ]
+        },
+        {
+            "name": "heritageType",
+            "explanation": "This subtable determines the actual heritage(s) of the character.",
+            "entries": [
+                {
+                    "m": 5,
+                    "v": "Fey Elf"
+                },
+                {
+                    "m": 1,
+                    "v": "Ancient Elf"
+                },
+                {
+                    "m": 12,
+                    "v": "Goblin"
+                },
+                {
+                    "m": 21,
+                    "v": "Dwarf"
+                },
+                {
+                    "m": 37,
+                    "v": "Human"
+                },
+                {
+                    "m": 21,
+                    "v": "Orc"
+                },
+                {
+                    "m": 7,
+                    "v": "Halfling"
+                }
+
             ]
         }
     ]
