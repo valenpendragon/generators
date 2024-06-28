@@ -1,8 +1,8 @@
 {
     "name": "Big Five Personality Generator",
-    "resultPattern": "{b|Imagination:} {imaginationResult}. ",
+    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.",
     "explanation": "This generator uses the big five personality model to quickly generate a peronality that is not governed by alignment. The options for each category use 2d6.",
-    "authors": "Jeffrey Scott from MT Black's table used under CC-BY license",
+    "authors": "valenpendragon from MT Black's table used under CC-BY license",
     "license": "CC-BY",
     "to do": [
         "Prudence response.",
@@ -49,6 +49,47 @@
                 {
                     "m": 3,
                     "v": "Creative"
+                }
+            ]
+        },
+        {
+            "name": "prudenceResult",
+            "entries": [
+                {
+                    "m": 3,
+                    "v": "Spontaneous"
+                },
+                {
+                    "m": 6,
+                    "v": "Careless"
+                },
+                {
+                    "m": 8,
+                    "v": "Disorganized"
+                },
+                {
+                    "m": 11,
+                    "v": "Reckless"
+                },
+                {
+                    "m": 44,
+                    "v": "No response"
+                },
+                {
+                    "m": 11,
+                    "v": "Methodical"
+                },
+                {
+                    "m": 8,
+                    "v": "Cautious"
+                },
+                {
+                    "m": 6,
+                    "v": "Dependable"
+                },
+                {
+                    "m": 3,
+                    "v": "Persistent"
                 }
             ]
         }
