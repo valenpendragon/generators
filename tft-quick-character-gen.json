@@ -18,12 +18,21 @@
             "entries": [
                 {
                     "m": 2,
-                    "V": "Wizard"
+                    "V": "{wizardType}"
                 },
                 {
                     "m": 4,
                     "v": "Hero"
                 }
+            ]
+        },
+        {
+            "name": "wizardType",
+            "explanation": "This subtable refines the type of wizard generated.",
+            "entries": [
+                "Martial Wizard (IQ over 11)",
+                "Martial Wizard (ST over 11)",
+                "Wizardly Thief"
             ]
         }
     ]
