@@ -1,12 +1,11 @@
 {
     "name": "Big Five Personality Generator",
-    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.\n{b|Agreeableness:} {agreeablenessResult}.",
+    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.\n{b|Agreeableness:} {agreeablenessResult}.\n{b|Temperament:} {temperamentResult}.",
     "explanation": "This generator uses the big five personality model to quickly generate a peronality that is not governed by alignment. The options for each category use 2d6.",
     "authors": "valenpendragon from MT Black's table used under CC-BY license",
     "license": "CC-BY",
     "to do": [
-        "Temperament response."
-    ],
+        ],
     "tables": [
         {
             "name": "imaginationResult",
@@ -169,6 +168,47 @@
                 {
                     "m": 3,
                     "v": "Courteous"
+                }
+            ]
+        },
+        {
+            "name": "temperamentResult",
+            "entries": [
+                {
+                    "m": 3,
+                    "v": "Calm"
+                },
+                {
+                    "m": 6,
+                    "v": "Optimistic"
+                },
+                {
+                    "m": 8,
+                    "v": "Resilient"
+                },
+                {
+                    "m": 11,
+                    "v": "Stoic"
+                },
+                {
+                    "m": 44,
+                    "v": "No response"
+                },
+                {
+                    "m": 11,
+                    "v": "Weak-willed"
+                },
+                {
+                    "m": 8,
+                    "v": "Anxious"
+                },
+                {
+                    "m": 6,
+                    "v": "Moody"
+                },
+                {
+                    "m": 3,
+                    "v": "Pessimistic"
                 }
             ]
         }
