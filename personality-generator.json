@@ -1,11 +1,10 @@
 {
     "name": "Big Five Personality Generator",
-    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.",
+    "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.\n{b|Agreeableness:} {agreeablenessResult}.",
     "explanation": "This generator uses the big five personality model to quickly generate a peronality that is not governed by alignment. The options for each category use 2d6.",
     "authors": "valenpendragon from MT Black's table used under CC-BY license",
     "license": "CC-BY",
     "to do": [
-        "Agreeableness response.",
         "Temperament response."
     ],
     "tables": [
@@ -129,6 +128,47 @@
                 {
                     "m": 3,
                     "v": "Talkative"
+                }
+            ]
+        },
+        {
+            "name": "agreeablenessResult",
+            "entries": [
+                {
+                    "m": 3,
+                    "v": "Critical"
+                },
+                {
+                    "m": 6,
+                    "v": "Haughty"
+                },
+                {
+                    "m": 8,
+                    "v": "Blunt"
+                },
+                {
+                    "m": 11,
+                    "v": "Opinionated"
+                },
+                {
+                    "m": 44,
+                    "v": "No response"
+                },
+                {
+                    "m": 11,
+                    "v": "Tolerant"
+                },
+                {
+                    "m": 8,
+                    "v": "Humble"
+                },
+                {
+                    "m": 6,
+                    "v": "Tactful"
+                },
+                {
+                    "m": 3,
+                    "v": "Courteous"
                 }
             ]
         }
