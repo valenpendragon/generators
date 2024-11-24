@@ -25,11 +25,11 @@
             "name": "villainType",
             "entries": [
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "The Abusive Authority Figure \n\n{authorityChar}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "The Beast \n\n{beastChar}"
                 },
                 "The Big Bad",
