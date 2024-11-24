@@ -40,7 +40,10 @@
                     "m": 1,
                     "v": "The Bully \n\n{bullyChar}"
                 },
-                "The Corrupted",
+                {
+                    "m": 1,
+                    "v": "The Corrupted \n\n{corruptedChar}"
+                },
                 "The Career Criminal",
                 "The Dark Knight",
                 "The Disposed Heir",
@@ -136,6 +139,12 @@
             "name": "bullyChar",
             "entries": [
                 "1) Opposes heroes directly, tormenting them intentionally \n2) Probably suffered abuse as a child \n3) May be a psychopath or sociopath \nGoal: tormant and obstruct heroes"
+            ]
+        },
+        {
+            "name": "corruptedChar",
+            "entries": [
+                "Other names: once were good/bad politicians \n1) Started out good or not so bad and were corrupted by criminals, wealth or power \n2) Follows tropes of bad cops, bad politicians \n3) End up serving a mastermaind or big bad \nGoals: protect their secrets and live confortably"
             ]
         }
     ]
