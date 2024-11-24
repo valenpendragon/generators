@@ -32,9 +32,12 @@
                 "The Corrupted",
                 "The Career Criminal",
                 "The Dark Knight",
-                "The Disposed Son/Daughter",
+                "The Disposed Heir",
                 "The Desperado",
-                "The Despot",
+                {
+                    "m": 1,
+                    "v": "The Despot: {despotType}"
+                },
                 "The Devil Incarnate",
                 "The Dragon",
                 "The Equal",
@@ -44,15 +47,43 @@
                 "The Lethal Plotter",
                 "The Machine",
                 "The Magnificent Bastard",
-                "The Mastermind",
+                {
+                    "m": 1,
+                    "v": "The Mastermind: {mastermindType}"
+                },
                 "The Matriarchal/Patriarchal Oppressor",
                 "The Minion",
                 "The Outsider",
-                "The Savage Predator",
+                {
+                    "m": 1,
+                    "v": "The Savage Predator: {predatorType}"
+                },
                 "The Traitor",
                 "The Unhinged",
                 "The Vengeful Villain",
                 "The Victim"
+            ]
+        },
+        {
+            "name": "despotType",
+            "entries": [
+                "The Femme/Homme Fatale",
+                "The World Dominator"
+            ]
+        },
+        {
+            "name": "mastermindType",
+            "entries": [
+                "The Pusher or Corrupter",
+                "No subtype"
+            ]
+        },
+        {
+            "name": "predatorType",
+            "entries": [
+                "The Schadenfreude",
+                "The Menace",
+                "The Complete Monster"
             ]
         }
     ]
