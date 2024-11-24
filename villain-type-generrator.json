@@ -36,7 +36,10 @@
                     "m": 1,
                     "v": "The Big Bad: {bigbadSubtype}"
                 },
-                "The Bully",
+                {
+                    "m": 1,
+                    "v": "The Bully \n\n{bullyChar}"
+                },
                 "The Corrupted",
                 "The Career Criminal",
                 "The Dark Knight",
@@ -127,6 +130,12 @@
             "name": "bigbadChar",
             "entries": [
                 "Other names: power behind the throne, hidden darkness \n1) Superior to other villains \n2) Shrouds themselves in secrecy \n3) Sub-Commanders are Dragons \nGoals: maintain secrecy, oppose heroes once aware of them"
+            ]
+        },
+        {
+            "name": "bullyChar",
+            "entries": [
+                "1) Opposes heroes directly, tormenting them intentionally \n2) Probably suffered abuse as a child \n3) May be a psychopath or sociopath \nGoal: tormant and obstruct heroes"
             ]
         }
     ]
