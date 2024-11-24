@@ -1,0 +1,23 @@
+{
+    "name": "Villain Type Generator",
+    "resultPattern": "Villain Type: {villainType}.\n\n {characteristics}",
+    "explanation": "This generator produces a quick personality for a new villain based on villain achetype.",
+    "to do": [
+        "Generate basic villain archetype.",
+        "Add charasteristics output",
+        "Add Wants and Desires",
+        "Add Fears",
+        "Add Likes and Dislikes",
+        "Add Quirks",
+        "Add Verbal Affections",
+        "Add Unique Voice",
+        "Add Place in Social Hierarchy",
+        "Add Name generation options",
+        "Add class generation",
+        "Add subclass generation",
+        "Add background generation",
+        "Add culture generation",
+        "Add species generation",
+        "Add destiny generation"
+    ]
+}

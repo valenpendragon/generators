@@ -1,0 +1,21 @@
+{
+    "name": "Quick Basic NPC Generator",
+    "resultPattern": "NPC Generator",
+    "explanation": "This generator quickly generates some ideas for the personality of an NPC.",
+    "to do": [
+        "Generate Wants and Desires",
+        "Add Fears",
+        "Add Likes and Dislikes",
+        "Add Quirks",
+        "Add Verbal Affections",
+        "Add Unique Voice",
+        "Add Place in Social Hierarchy",
+        "Add Name generation options",
+        "Add class generation",
+        "Add subclass generation",
+        "Add background generation",
+        "Add culture generation",
+        "Add species generation",
+        "Add destiny generation"
+    ]
+}
