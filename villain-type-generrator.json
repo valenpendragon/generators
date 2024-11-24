@@ -28,7 +28,10 @@
                     "m": 100,
                     "v": "The Abusive Authority Figure \n\n{authorityChar}"
                 },
-                "The Beast",
+                {
+                    "m": 100,
+                    "v": "The Beast \n\n{beastChar}"
+                },
                 "The Big Bad",
                 "The Bully",
                 "The Corrupted",
@@ -91,7 +94,13 @@
         {
             "name": "authorityChar",
             "entries": [
-                "Other names: Career Bitch, The Abusive Autocrat, Dictator \nCorporate Climber with no morals or loyalty \nHolds on to power at any cost \nCollects sycophants who protect them"
+                "Other names: Career Bitch, The Abusive Autocrat, Dictator \n1) Corporate Climber with no morals or loyalty \n2) Holds on to power at any cost \n2) Collects sycophants who protect them \nGoal: climb to the top and stay there"
+            ]
+        },
+        {
+            "name": "beastChar",
+            "entries": [
+                "Other names: the Monster \n1) Literally a monster with a limited mind of its own \n2) Can be heroic but misunderstood like Godzila \nGoal: feed or protect territory"
             ]
         }
     ]
