@@ -24,7 +24,10 @@
         {
             "name": "villainType",
             "entries": [
-                "The Abusive Authority Figure",
+                {
+                    "m": 100,
+                    "v": "The Abusive Authority Figure \n\n{authorityChar}"
+                },
                 "The Beast",
                 "The Big Bad",
                 "The Bully",
@@ -83,6 +86,12 @@
                 "The Schadenfreude",
                 "The Menace",
                 "The Complete Monster"
+            ]
+        },
+        {
+            "name": "authorityChar",
+            "entries": [
+                "Other names: Career Bitch, The Abusive Autocrat, Dictator \nCorporate Climber with no morals or loyalty \nHolds on to power at any cost \nCollects sycophants who protect them"
             ]
         }
     ]
