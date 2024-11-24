@@ -33,7 +33,7 @@
                     "v": "The Beast \n\n{beastChar}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "The Big Bad: {bigbadSubtype}"
                 },
                 "The Bully",
@@ -77,15 +77,15 @@
             "entries": [
                 {
                     "m": 1,
-                    "v": "No subtype"
+                    "v": "No subtype \n\n{bigbadChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Mastermind: {mastermindType}"
+                    "v": "The Mastermind: {mastermindType} \n\nBig Bad Traits: \n{bigbadChar} \nMastermind Traits: "
                 },
                 {
                     "m": 1,
-                    "v": "The Lethal Plotter"
+                    "v": "The Lethal Plotter \n\nBig Bad Traits: \n{bigbadChar} \nLethal Plotter Traits: "
                 }
             ]
         },
@@ -121,6 +121,12 @@
             "name": "beastChar",
             "entries": [
                 "Other names: the Monster \n1) Literally a monster with a limited mind of its own \n2) Can be heroic but misunderstood like Godzila \nGoal: feed or protect territory"
+            ]
+        },
+        {
+            "name": "bigbadChar",
+            "entries": [
+                "Other names: power behind the throne, hidden darkness \n1) Superior to other villains \n2) Shrouds themselves in secrecy \n3) Sub-Commanders are Dragons \nGoals: maintain secrecy, oppose heroes once aware of them"
             ]
         }
     ]
