@@ -32,7 +32,10 @@
                     "m": 1,
                     "v": "The Beast \n\n{beastChar}"
                 },
-                "The Big Bad",
+                {
+                    "m": 100,
+                    "v": "The Big Bad: {bigbadSubtype}"
+                },
                 "The Bully",
                 "The Corrupted",
                 "The Career Criminal",
@@ -67,6 +70,23 @@
                 "The Unhinged",
                 "The Vengeful Villain",
                 "The Victim"
+            ]
+        },
+        {
+            "name": "bigbadSubtype",
+            "entries": [
+                {
+                    "m": 1,
+                    "v": "No subtype"
+                },
+                {
+                    "m": 1,
+                    "v": "The Mastermind: {mastermindType}"
+                },
+                {
+                    "m": 1,
+                    "v": "The Lethal Plotter"
+                }
             ]
         },
         {
