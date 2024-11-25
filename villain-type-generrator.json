@@ -76,7 +76,10 @@
                     "m": 1,
                     "v": "The Equal \n\n{equalChar}"
                 },
-                "The Fanatic",
+                {
+                    "m": 1,
+                    "v": "The Fanatic: {fanaticType}"
+                },
                 "The Femme/Homme Fatale",
                 "The Killer Frenemy",
                 "The Lethal Plotter",
@@ -159,6 +162,23 @@
                     "m": 1,
                     "v": "Subcommander Dragon \n\nDragon Traits: \n{dragonChar} \nSubcommander Traits: \n{capodragonChar}"
                 }
+            ]
+        },
+        {
+            "name": "fanaticType",
+            "entries": [
+                {
+                    "m": 1,
+                    "v": "No subtype \n\n{fanaticChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "Cult Leader \n\nFanatic Traits: \n{fanaticChar} \nCult Leader Traits: \n{cultleaderChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "Serial Killer \n\nFanatic Traits: \n{fanaticChar} \nSerial Killer Traits: \n{serialkillerChar}"
+                },
             ]
         },
         {
@@ -249,6 +269,24 @@
             "name": "equalChar",
             "entries": [
                 "Other names: Nemesis, Arch-Enemy, Mirror, General Zod, Reverse Flash \n1) Almost a doppleganger of a specific hero, but differs substantially in morals and ethics \n2) This willian will eclipse others in stories focused on said hero \n3) May ally temporarily with said hero in the face of a world-ending crisis or a crisis created by someone they despise \nGoals: match wits and win against said hero (their arch-enemy) \nNote: This is rarely seen outside of superhero and thriller genres."
+            ]
+        },
+        {
+            "name": "fanaticChar",
+            "entries": [
+                "Other names: Twisted Ethics, Terrorists, Cultists \n1) Single-mindedly driven by an agenda, religion, ideology, or cause (which is seldom traditional) \nGoals: succeed in their mission, even at the cost of their lives"
+            ]
+        },
+        {
+            "name": "serialkillerChar",
+            "entries": [
+                "Other names: Misson-Oriented, Spree Killer \n1) Will fight to the death like a Madman \n2) So emotionally invested in their actions that they cannot stop killing \n3) Rarely captured alive \nGoals: fulfill their subconscious emotional needs no matter the cost"
+            ]
+        },
+        {
+            "name": "cultleaderChar",
+            "entries": [
+                "1) Create a religion that is a cult of personality \n2) Dark empath \n3) Willing to die for their religion \n4) Create structures in their religion to replace their followers' support system with the cult \nGoals: spread their religion and make its goals a reality"
             ]
         }
     ]
