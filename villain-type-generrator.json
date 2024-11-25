@@ -84,7 +84,10 @@
                     "m": 1,
                     "v": "The Femme/Homme Fatale \n\n{fataleChar}"
                 },
-                "The Killer Frenemy",
+                {
+                    "m": 1,
+                    "v": "The Killer Frenemy \n\n{frenemyChar}"
+                },
                 "The Lethal Plotter",
                 "The Machine",
                 "The Magnificent Bastard",
@@ -296,6 +299,12 @@
             "name": "fataleChar",
             "entries": [
                 "Other names: {fataleAssoc}  \n1) Preys on their gender preference to seduce them \n2) Drains their 'paramours' financially and possibly literally (vampires) \n3) They can work for heroes or villains, often in espionage \nGoals: power over their gender preferences, money, and power\nNotes: One of the few archetypes to appear in Joseph Campbell's work."
+            ]
+        },
+        {
+            "name": "frenemyChar",
+            "entries": [
+                "Other names: Pseudo-Buddy, Nemesis, Arch-Enemy, Psycho-Nanny, Psycho-Roommate \n1) Always appears as an ally to the hero while working against them \n2) Motivated by jealoousy or envy of the hero \n3) Highly emotional situations can make this villain's mask of caring slip or break \nGoals: destroy the hero from within"
             ]
         },
         {
