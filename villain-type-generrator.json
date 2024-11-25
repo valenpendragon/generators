@@ -52,7 +52,10 @@
                     "m": 1,
                     "v": "The Dark Knight \n\n{darkknightChar}"
                 },
-                "The Disposed Heir",
+                {
+                    "m": 1,
+                    "v": "The Disposed Heir \n\n{disposedheirChar}"
+                },
                 "The Desperado",
                 {
                     "m": 1,
@@ -163,6 +166,12 @@
             "name": "darkknightChar",
             "entries": [
                 "Other names: Dr Doom, Absolute Batman \n1) Upholds a strict code of honor that is their own that is incomprehensible to others \n2) Destroys anyone who fails to meet their standards of honor \n3) The ends always justify the means \nGoals: to rid society of everyone who fails to meet his standards of honor"
+            ]
+        },
+        {
+            "name": "disposedheirChar",
+            "entries": [
+                "Other names: Snubbed Sibling, The Spare \n1) Born to wealth and privilege but prevented from inheriting it \n2) Has the mannerisms and comportment of a noble \n3) Extreme sense of entitlement (spoiled brat) \n4) Chronic resentment of other heir(s) \nGoals: to get back the title(s) they feel they deserve"
             ]
         }
     ]
