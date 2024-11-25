@@ -44,7 +44,10 @@
                     "m": 1,
                     "v": "The Corrupted \n\n{corruptedChar}"
                 },
-                "The Career Criminal",
+                {
+                    "m": 1,
+                    "v": "The Career Criminal \n\n{criminalChar}"
+                },
                 "The Dark Knight",
                 "The Disposed Heir",
                 "The Desperado",
@@ -145,6 +148,12 @@
             "name": "corruptedChar",
             "entries": [
                 "Other names: once were good/bad politicians \n1) Started out good or not so bad and were corrupted by criminals, wealth or power \n2) Follows tropes of bad cops, bad politicians \n3) End up serving a mastermaind or big bad \nGoals: protect their secrets and live confortably"
+            ]
+        },
+        {
+            "name": "criminalChar",
+            "entries": [
+                "Other names: thief, gentleman thief, cat burglar, thug, bankrobber \n1) Works for wealth and power it provides \n2) Can be an anti-villain or anti-hero,  \n3) Solitary, but can work in a team under a mastermind or dragon \n4) Can help heroes, but will take steps to ensure they get their share of treasure that can undermine the group \nGoals: money"
             ]
         }
     ]
