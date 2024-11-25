@@ -65,7 +65,7 @@
                     "v": "The Despot: {despotType}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "The Devil Incarnate \n\n{devilChar}"
                 },
                 "The Dragon",
@@ -113,8 +113,18 @@
         {
             "name": "despotType",
             "entries": [
-                "The Femme/Homme Fatale",
-                "The World Dominator"
+                {
+                    "m": 1,
+                    "V": "No subtype \n\n{despotChar}"
+                },
+                {
+                    "m": 1,
+                    "V": "The Femme/Homme Fatale \n\nDespot Traits: \n{despotChar} \nFemme/Homme Fatale Traits: "
+                },
+                {
+                    "m": 1,
+                    "V": "The World Dominator \n\nDespot Traits: \n{despotChar} \nWorld Dominator Goals: {worlddominatorChar}"
+                }
             ]
         },
         {
@@ -190,6 +200,18 @@
             "name": "devilChar",
             "entries": [
                 "Other names: Evil Clown, Dark God, Fallen Angel, Demon, Trickster \n1) Literally the Devil on earth in humanoid form or a mind reader \n2) Can spot moral weaknesses in anyone, heroes included \n3) May have morals or principles unlike the Unhinged \n4) Enjoys playing with their 'food' as a dark comedy \nGoals: to tempt and manipulate the hero and their entourage to fall into darkness"
+            ]
+        },
+        {
+            "name": "despotChar",
+            "entries": [
+                "1) Wants power by any means necessary \n2) Often start off as powerless victims who channel their rage into action \n3) Gathers forces as minions to justify their belief systems and do their dirty work \n4) No amount of power is enough, often conquering nations or continents \nGoals: power over everyone else"
+            ]
+        },
+        {
+            "name": "worlddominatorChar",
+            "entries": [
+                "ultimate power over an entire world, multiple worlds, a plane, multiple planes, or a multiverse"
             ]
         }
     ]
