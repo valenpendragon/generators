@@ -56,12 +56,18 @@
                     "m": 1,
                     "v": "The Disposed Heir \n\n{disposedheirChar}"
                 },
-                "The Desperado",
+                {
+                    "m": 1,
+                    "v": "The Desperado \n\n{desperadoChar}"
+                },
                 {
                     "m": 1,
                     "v": "The Despot: {despotType}"
                 },
-                "The Devil Incarnate",
+                {
+                    "m": 100,
+                    "v": "The Devil Incarnate \n\n{devilChar}"
+                },
                 "The Dragon",
                 "The Equal",
                 "The Fanatic",
@@ -172,6 +178,18 @@
             "name": "disposedheirChar",
             "entries": [
                 "Other names: Snubbed Sibling, The Spare \n1) Born to wealth and privilege but prevented from inheriting it \n2) Has the mannerisms and comportment of a noble \n3) Extreme sense of entitlement (spoiled brat) \n4) Chronic resentment of other heir(s) \nGoals: to get back the title(s) they feel they deserve"
+            ]
+        },
+        {
+            "name": "desperadoChar",
+            "entries": [
+                "1) On the run in their own pitiful world \n2) Could be anyone trapped by their own poor choices \n3) Running from or working for worse villains than themselves \n4) Forced into unscrupulous choices to survive \nGoals: live another day regardless of the cost and escape their fate"
+            ]
+        },
+        {
+            "name": "devilChar",
+            "entries": [
+                "Other names: Evil Clown, Dark God, Fallen Angel, Demon, Trickster \n1) Literally the Devil on earth in humanoid form or a mind reader \n2) Can spot moral weaknesses in anyone, heroes included \n3) May have morals or principles unlike the Unhinged \n4) Enjoys playing with their 'food' as a dark comedy \nGoals: to tempt and manipulate the hero and their entourage to fall into darkness"
             ]
         }
     ]
