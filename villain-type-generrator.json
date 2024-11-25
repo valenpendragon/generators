@@ -48,7 +48,10 @@
                     "m": 1,
                     "v": "The Career Criminal \n\n{criminalChar}"
                 },
-                "The Dark Knight",
+                {
+                    "m": 1,
+                    "v": "The Dark Knight \n\n{darkknightChar}"
+                },
                 "The Disposed Heir",
                 "The Desperado",
                 {
@@ -154,6 +157,12 @@
             "name": "criminalChar",
             "entries": [
                 "Other names: thief, gentleman thief, cat burglar, thug, bankrobber \n1) Works for wealth and power it provides \n2) Can be an anti-villain or anti-hero,  \n3) Solitary, but can work in a team under a mastermind or dragon \n4) Can help heroes, but will take steps to ensure they get their share of treasure that can undermine the group \nGoals: money"
+            ]
+        },
+        {
+            "name": "darkknightChar",
+            "entries": [
+                "Other names: Dr Doom, Absolute Batman \n1) Upholds a strict code of honor that is their own that is incomprehensible to others \n2) Destroys anyone who fails to meet their standards of honor \n3) The ends always justify the means \nGoals: to rid society of everyone who fails to meet his standards of honor"
             ]
         }
     ]
