@@ -68,7 +68,10 @@
                     "m": 1,
                     "v": "The Devil Incarnate \n\n{devilChar}"
                 },
-                "The Dragon",
+                {
+                    "m": 1,
+                    "v": "The Dragon: {dragonType}"
+                },
                 "The Equal",
                 "The Fanatic",
                 "The Femme/Homme Fatale",
@@ -143,6 +146,19 @@
             ]
         },
         {
+            "name": "dragonType",
+            "entries": [
+                {
+                    "m": 1,
+                    "v": "No subtype \n\n{dragonChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "Subcommander Dragon \n\nDragon Traits: \n{dragonChar} \nSubcommander Traits: \n{capodragonChar}"
+                }
+            ]
+        },
+        {
             "name": "authorityChar",
             "entries": [
                 "Other names: Career Bitch, The Abusive Autocrat, Dictator \n1) Corporate Climber with no morals or loyalty \n2) Holds on to power at any cost \n2) Collects sycophants who protect them \nGoal: climb to the top and stay there"
@@ -212,6 +228,18 @@
             "name": "worlddominatorChar",
             "entries": [
                 "ultimate power over an entire world, multiple worlds, a plane, multiple planes, or a multiverse"
+            ]
+        },
+        {
+            "name": "dragonChar",
+            "entries": [
+                "Other names: The Boss \n1) Earned their way to leadership with competence and hard work \n2) Able leader ruling through respect or fear \n3) Understands long term goals \nGoals: take over the organization (secretly in some cases)"
+            ]
+        },
+        {
+            "name": "capodragonChar",
+            "entries": [
+                "Other names: Capo, Underboss, Subcommander, Darth Vader \n1) Serves the Big Bad and believes in their motives, goals, and endgame \n2) Visible commander of the organization as the Big Bad is rarely seen \n3) So effective at leading that the Big Bad might not be noticed \n4) Only face most minions have ever seen \nGoals: command and enforce the Big Bad's will through the organization"
             ]
         }
     ]
