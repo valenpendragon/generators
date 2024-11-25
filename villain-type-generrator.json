@@ -72,7 +72,10 @@
                     "m": 1,
                     "v": "The Dragon: {dragonType}"
                 },
-                "The Equal",
+                {
+                    "m": 1,
+                    "v": "The Equal \n\n{equalChar}"
+                },
                 "The Fanatic",
                 "The Femme/Homme Fatale",
                 "The Killer Frenemy",
@@ -240,6 +243,12 @@
             "name": "capodragonChar",
             "entries": [
                 "Other names: Capo, Underboss, Subcommander, Darth Vader \n1) Serves the Big Bad and believes in their motives, goals, and endgame \n2) Visible commander of the organization as the Big Bad is rarely seen \n3) So effective at leading that the Big Bad might not be noticed \n4) Only face most minions have ever seen \nGoals: command and enforce the Big Bad's will through the organization"
+            ]
+        },
+        {
+            "name": "equalChar",
+            "entries": [
+                "Other names: Nemesis, Arch-Enemy, Mirror, General Zod, Reverse Flash \n1) Almost a doppleganger of a specific hero, but differs substantially in morals and ethics \n2) This willian will eclipse others in stories focused on said hero \n3) May ally temporarily with said hero in the face of a world-ending crisis or a crisis created by someone they despise \nGoals: match wits and win against said hero (their arch-enemy) \nNote: This is rarely seen outside of superhero and thriller genres."
             ]
         }
     ]
