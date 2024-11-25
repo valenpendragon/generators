@@ -80,7 +80,10 @@
                     "m": 1,
                     "v": "The Fanatic: {fanaticType}"
                 },
-                "The Femme/Homme Fatale",
+                {
+                    "m": 1,
+                    "v": "The Femme/Homme Fatale \n\n{fataleChar}"
+                },
                 "The Killer Frenemy",
                 "The Lethal Plotter",
                 "The Machine",
@@ -128,7 +131,7 @@
                 },
                 {
                     "m": 1,
-                    "V": "The Femme/Homme Fatale \n\nDespot Traits: \n{despotChar} \nFemme/Homme Fatale Traits: "
+                    "V": "The Femme/Homme Fatale \n\nDespot Traits: \n{despotChar} \nFemme/Homme Fatale Traits: \n{fataleChar}"
                 },
                 {
                     "m": 1,
@@ -287,6 +290,18 @@
             "name": "cultleaderChar",
             "entries": [
                 "1) Create a religion that is a cult of personality \n2) Dark empath \n3) Willing to die for their religion \n4) Create structures in their religion to replace their followers' support system with the cult \nGoals: spread their religion and make its goals a reality"
+            ]
+        },
+        {
+            "name": "fataleChar",
+            "entries": [
+                "Other names: {fataleAssoc}  \n1) Preys on their gender preference to seduce them \n2) Drains their 'paramours' financially and possibly literally (vampires) \n3) They can work for heroes or villains, often in espionage \nGoals: power over their gender preferences, money, and power\nNotes: One of the few archetypes to appear in Joseph Campbell's work."
+            ]
+        },
+        {
+            "name": "fataleAssoc",
+            "entries": [
+                "seductress, Goddess, enchantress, black widow, courtesan, gigolo, swindlers, con-artists, Don Juan, honey traps, psychic or physical vampires"
             ]
         }
     ]
