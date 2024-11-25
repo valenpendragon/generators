@@ -88,7 +88,10 @@
                     "m": 1,
                     "v": "The Killer Frenemy \n\n{frenemyChar}"
                 },
-                "The Lethal Plotter",
+                {
+                    "m": 1,
+                    "v": "The Lethal Plotter \n\n{lethalplotterChar}"
+                },
                 "The Machine",
                 "The Magnificent Bastard",
                 {
@@ -121,7 +124,7 @@
                 },
                 {
                     "m": 1,
-                    "v": "The Lethal Plotter \n\nBig Bad Traits: \n{bigbadChar} \nLethal Plotter Traits: "
+                    "v": "The Lethal Plotter \n\nBig Bad Traits: \n{bigbadChar} \nLethal Plotter Traits: \n{lethalplotterChar}"
                 }
             ]
         },
@@ -305,6 +308,12 @@
             "name": "frenemyChar",
             "entries": [
                 "Other names: Pseudo-Buddy, Nemesis, Arch-Enemy, Psycho-Nanny, Psycho-Roommate \n1) Always appears as an ally to the hero while working against them \n2) Motivated by jealoousy or envy of the hero \n3) Highly emotional situations can make this villain's mask of caring slip or break \nGoals: destroy the hero from within"
+            ]
+        },
+        {
+            "name": "lethalplotterChar",
+            "entries": [
+                "Other names: The Nemesis, Arch-Enemy, often the Dragon to a Mastermind  \n1) Constantly planning ways to ruin the heroes' lives while profiting greatly from it \n2) Very patient in carrying out plans \n3) Always has plan B-ZZ \n4) Enjoys matching wits with heroes and outsmarting them tactically or strategically \n5) Often matches at least one of the heroes in skills  \nGoals: to perform a specific crime, then getting rid of all lose ends and evidence"
             ]
         },
         {
