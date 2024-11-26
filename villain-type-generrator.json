@@ -92,7 +92,10 @@
                     "m": 1,
                     "v": "The Lethal Plotter \n\n{lethalplotterChar}"
                 },
-                "The Machine",
+                {
+                    "m": 1,
+                    "v": "The Machine \n\n{machineChar}"
+                },
                 "The Magnificent Bastard",
                 {
                     "m": 1,
@@ -314,6 +317,12 @@
             "name": "lethalplotterChar",
             "entries": [
                 "Other names: The Nemesis, Arch-Enemy, often the Dragon to a Mastermind  \n1) Constantly planning ways to ruin the heroes' lives while profiting greatly from it \n2) Very patient in carrying out plans \n3) Always has plan B-ZZ \n4) Enjoys matching wits with heroes and outsmarting them tactically or strategically \n5) Often matches at least one of the heroes in skills  \nGoals: to perform a specific crime, then getting rid of all lose ends and evidence"
+            ]
+        },
+        {
+            "name": "machineChar",
+            "entries": [
+                "Other names: the murderous robot, the android, the husk, the supernatural or extraterrestrial beast \n1) Emotionlessly, remorselessly, mercilessly pursues its target until they are destroyed or captured. \n2) Has superior armor to the Beast \n3) Could have been more benevolent in design until now. \nGoals: destroy or capture a specific target, usually a hero"
             ]
         },
         {
