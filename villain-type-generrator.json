@@ -142,11 +142,11 @@
             "name": "bigbadSubtype",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "No subtype \n\n{bigbadChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Mastermind: {mastermindType} \n\nBig Bad Traits: \n{bigbadChar}"
                 },
                 {
@@ -159,7 +159,7 @@
             "name": "despotType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "V": "No subtype \n\n{despotChar}"
                 },
                 {
@@ -176,7 +176,7 @@
             "name": "mastermindType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 10,
                     "v": "No subtype \n\n{mastermindChar}"
                 },
                 {
@@ -189,7 +189,7 @@
             "name": "minionType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "No subtype \n\n{minionChar}"
                 },
                 {
@@ -202,7 +202,7 @@
             "name": "predatorType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 5,
                     "v": "No subtype \n\n{predatorChar}"
                 },
                 {
@@ -223,11 +223,11 @@
             "name": "dragonType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 5,
                     "v": "No subtype \n\n{dragonChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Subcommander Dragon \n\nDragon Traits: \n{dragonChar} \nSubcommander Traits: \n{capodragonChar}"
                 }
             ]
@@ -236,7 +236,7 @@
             "name": "fanaticType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 5,
                     "v": "No subtype \n\n{fanaticChar}"
                 },
                 {
@@ -244,7 +244,7 @@
                     "v": "Cult Leader \n\nFanatic Traits: \n{fanaticChar} \nCult Leader Traits: \n{cultleaderChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Serial Killer \n\nFanatic Traits: \n{fanaticChar} \nSerial Killer Traits: \n{serialkillerChar}"
                 },
             ]
