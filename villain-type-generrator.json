@@ -120,7 +120,10 @@
                     "m": 1,
                     "v": "The Savage Predator: {predatorType}"
                 },
-                "The Traitor",
+                {
+                    "m": 100,
+                    "v": "The Traitor \n\n{traitorChar}"
+                },
                 "The Unhinged",
                 "The Vengeful Villain",
                 "The Victim"
@@ -436,6 +439,12 @@
             ]
         },
         {
+            "name": "traitorChar",
+            "entries": [
+                "Other names: {traitorAssoc} \n1) Will betray anyone, friends and loved ones included, to save themselves \n2) Cowardly manipulates and deceives others to get information \n3) Will perform acts of treachery and treason if they can do so safely \n4) Often pretends to support and befriend targets, including heroes \nGoals: provide information about the hero to their opposition to ruin their objectives"
+            ]
+        },
+        {
             "name": "fataleAssoc",
             "entries": [
                 "seductress, Goddess, enchantress, black widow, courtesan, gigolo, swindlers, con-artists, Don Juan, honey traps, psychic or physical vampires"
@@ -445,6 +454,12 @@
             "name": "clanoppressorAssoc",
             "entries": [
                 "Tiger Mom, Mummy Dearest, Helicopter Parents, Bad Mother, Wicked Stepmother, Evil Queen, Clan Despot, Evil King"
+            ]
+        },
+        {
+            "name": "traitorAssoc",
+            "entries": [
+                "the betrayer, two-face, tattle-tale, treasoner, whistle-blower, spy, secret agent (on the baddie’s side). saboteur, back-stabber"
             ]
         },
         {
