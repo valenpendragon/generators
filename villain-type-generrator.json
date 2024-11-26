@@ -25,7 +25,7 @@
             "name": "villainType",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "The Abusive Authority Figure \n\n{authorityChar}"
                 },
                 {
@@ -33,19 +33,19 @@
                     "v": "The Beast \n\n{beastChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Big Bad: {bigbadSubtype}"
                 },
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "The Bully \n\n{bullyChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "The Corrupted \n\n{corruptedChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "The Career Criminal \n\n{criminalChar}"
                 },
                 {
@@ -61,7 +61,7 @@
                     "v": "The Desperado \n\n{desperadoChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Despot: {despotType}"
                 },
                 {
@@ -69,7 +69,7 @@
                     "v": "The Devil Incarnate \n\n{devilChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "The Dragon: {dragonType}"
                 },
                 {
@@ -77,11 +77,11 @@
                     "v": "The Equal \n\n{equalChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "The Fanatic: {fanaticType}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Femme/Homme Fatale \n\n{fataleChar}"
                 },
                 {
@@ -89,7 +89,7 @@
                     "v": "The Killer Frenemy \n\n{frenemyChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Lethal Plotter \n\n{lethalplotterChar}"
                 },
                 {
@@ -101,15 +101,15 @@
                     "v": "The Magnificent Bastard \n\n{magnificentbastardChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "The Mastermind: {mastermindType}"
                 },
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "The Matriarchal/Patriarchal Oppressor \n\n{clanoppressorChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 5,
                     "v": "The Minion: {minionType}"
                 },
                 {
@@ -117,7 +117,7 @@
                     "v":"The Outsider \n\n{outsiderChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "The Savage Predator: {predatorType}"
                 },
                 {
@@ -129,11 +129,11 @@
                     "v": "The Unhinged \n\n{unhingedChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "The Vengeful Villain \n\n{vengefulChar}"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v":"The Victim \n\n{victimChar}"
                 }
             ]
