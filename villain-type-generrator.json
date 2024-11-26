@@ -132,7 +132,10 @@
                     "m": 1,
                     "v": "The Vengeful Villain \n\n{vengefulChar}"
                 },
-                "The Victim"
+                {
+                    "m": 1,
+                    "v":"The Victim \n\n{victimChar}"
+                }
             ]
         },
         {
@@ -460,6 +463,12 @@
             "name": "vengefulChar",
             "entries": [
                 "Other names: vigilante, punisher \n1) Feels wronged by someone or society and cannot get over it \n2) The wrong might not be somethng that makes sense to others \n3) Intentionally grew in power and wealth to be able to exact revenge on their enemies \n4) Consider themselves above societal norms or their targets beyond the ability of society to deliver justice \nGoals: obtain vengeance for a perceived injustice"
+            ]
+        },
+        {
+            "name": "victimChar",
+            "entries": [
+                "Other names: the innocent, the child \n1) 'Someone else made me do it' \n2) Denies responsibility for all atttrocities \n3) As long as they feel safe, will commit any attrocity \n4) Never feels guilt for attrocities, but does feel wrongly judged by others for doing it \n5) Utterly unreliable witness \nGoals: cast blame on others for their actions"
             ]
         },
         {
