@@ -2,7 +2,7 @@
     "name": "Villain Type Generator",
     "resultPattern": "Villain Type: {villainType}.",
     "explanation": "This generator produces a quick personality for a new villain based on villain achetype.",
-    "source": "Villain archetypes and descriptions from 'The Villain: Archetypes', by Word Hunter (WordPress) 8/8/2016.",
+    "source": "Villain archetypes and descriptions adapted from 'The Villain: Archetypes', by Word Hunter (WordPress) 8/8/2016.",
     "to do": [
         "Add charasteristics output",
         "Add Wants and Desires",
@@ -96,7 +96,10 @@
                     "m": 1,
                     "v": "The Machine \n\n{machineChar}"
                 },
-                "The Magnificent Bastard",
+                {
+                    "m": 1,
+                    "v": "The Magnificent Bastard \n\n{magnificentbastardChar}"
+                },
                 {
                     "m": 1,
                     "v": "The Mastermind: {mastermindType}"
@@ -326,9 +329,27 @@
             ]
         },
         {
+            "name": "magnificentbastardChar",
+            "entries": [
+                "* Competent as the Dragon \n* Ruthless as the Sadist Predator \nMastermind \nPuppetmaster \n{devilTraits} \n{manificentbastardGoals}"
+            ]
+        },
+        {
             "name": "fataleAssoc",
             "entries": [
                 "seductress, Goddess, enchantress, black widow, courtesan, gigolo, swindlers, con-artists, Don Juan, honey traps, psychic or physical vampires"
+            ]
+        },
+        {
+            "name": "devilTraits",
+            "entries": [
+                "* Can spot moral weaknesses in anyone, heroes included \n* May have morals or principles unlike the Unhinged \n* Enjoys playing with their 'food' as a dark comedy"
+            ]
+        },
+        {
+            "name": "manificentbastardGoals",
+            "entries": [
+                "Goals: World Domination but via a very slow and enjoyable route."
             ]
         }
     ]
