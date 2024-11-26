@@ -108,7 +108,10 @@
                     "m": 1,
                     "v": "The Matriarchal/Patriarchal Oppressor \n\n{clanoppressorChar}"
                 },
-                "The Minion",
+                {
+                    "m": 1,
+                    "v": "The Minion: {minionType}"
+                },
                 "The Outsider",
                 {
                     "m": 1,
@@ -165,9 +168,20 @@
                     "m": 1,
                     "v": "The Pusher or Corrupter \n\n{corruptorsubtypeChar}"
                 }
+            ]                  
+        },
+        {
+            "name": "minionType",
+            "entries": [
+                {
+                    "m": 1,
+                    "v": "No subtype \n\n{minionChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "Sports Villain \n\nMinion Traits: \n{minionChar} \nSports Villain Traits: \n{sportsChar}"
+                }
             ]
-                
-                
         },
         {
             "name": "predatorType",
@@ -361,6 +375,18 @@
             "name": "clanoppressorChar",
             "entries": [
                 "Other names: {clanoppressorAssoc} \n1) Family tyrants who will do 'anything for family' as long it is also personally self-serving \n2) Expects unconditional love and loyalty while giving at best transactional returns \n3) Disposes of anyone failing their loyalty tests \nGoals: rule over the clan that unconditionally loves them \nNotes: This is an overdone trope in YA books and games."
+            ]
+        },
+        {
+            "name": "minionChar",
+            "entries": [
+                "Other names: Villain’s sidekicks, thugs, henchmen, sports villains, jocks, heels (wrestling term for villains) \n1) Craves the same profits as the villain they serve \n2) Serve villlains they perceive as smarter than they are \n3) May seek to be a mastermind or dragon if smart or resoureful \nGoals: profit from working for the bigger villain's goals"
+            ]
+        },
+        {
+            "name": "sportsChar",
+            "entries": [
+                "1) Has special training in martial arts or specific sports that make them more formidable \n2) Never question their training."
             ]
         },
         {
