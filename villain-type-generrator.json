@@ -124,7 +124,10 @@
                     "m": 1,
                     "v": "The Traitor \n\n{traitorChar}"
                 },
-                "The Unhinged",
+                {
+                    "m": 1,
+                    "v": "The Unhinged \n\n{unhingedChar}"
+                },
                 "The Vengeful Villain",
                 "The Victim"
             ]
@@ -445,6 +448,12 @@
             ]
         },
         {
+            "name": "unhingedChar",
+            "entries": [
+                "Other names: {unhingedAssoc} \n1) Might need a shell persona to hide the insanity of this villain \n2) Motives of their actions often make little sense \n3) Probably a monster created by monsters in childhood \n4) May oppose hero just because... \nGoals: not predictable, although it will involve hurting/destroying the hero specifically"
+            ]
+        },
+        {
             "name": "fataleAssoc",
             "entries": [
                 "seductress, Goddess, enchantress, black widow, courtesan, gigolo, swindlers, con-artists, Don Juan, honey traps, psychic or physical vampires"
@@ -460,6 +469,12 @@
             "name": "traitorAssoc",
             "entries": [
                 "the betrayer, two-face, tattle-tale, treasoner, whistle-blower, spy, secret agent (on the baddie’s side). saboteur, back-stabber"
+            ]
+        },
+        {
+            "name": "unhingedAssoc",
+            "entries": [
+                "mad woman, mad man, deranged, lunatic, psycho, maniac, rogue, the disturbed, scorned woman, stalker-ex, the Joker, the Riddler, Norman Bates, Annie Wilkes"
             ]
         },
         {
