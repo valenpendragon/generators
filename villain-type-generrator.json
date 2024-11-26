@@ -189,9 +189,22 @@
         {
             "name": "predatorType",
             "entries": [
-                "The Schadenfreude",
-                "The Menace",
-                "The Complete Monster"
+                {
+                    "m": 1,
+                    "v": "No subtype \n\n{predatorChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "The Schadenfreude \n\nCommon Predator Traits: \n{predatorChar} \nSchadenfreude unique traits: \n{schadenfreudeChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "The Menace \n\nCommon Predator Traits: \n{predatorChar} \nMenace unique traits: \n{menaceChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "The Complete Monster\n\nCommon Predator Traits: \n{predatorChar} \nComplete Monster unique traits: \n{completemonsterChar}"
+                }
             ]
         },
         {
@@ -396,6 +409,30 @@
             "name": "outsiderChar",
             "entries": [
                 "Other names: outcast, hermit, outsider \n1) Seems like a decent person but will not join new groups \n2) Pines for old life before being 'unjustly' exiled \n3) Mask eventually slips, revealing why they were exiled \n4) A little investigation by a party could reveal the true depths of their depravity \n{outsiderGoals}"
+            ]
+        },
+        {
+            "name": "predatorChar",
+            "entries": [
+                "Other names: the sadist, the menace, barbarian \n1) Consumed by bloodlust \n2) Fights and kills for sport without regret or remorse \n3) Enjoys using their hunting skills to violently and brutally kill, often turning it into games \n4) If unable to setup own games, will hire out as a mercenary or assassin \nGoals: to kill, maim, and destory for sport"
+            ]
+        },
+        {
+            "name": "schadenfreudeChar",
+            "entries": [
+                "1) Manipulative sadist \n2) Craves hurting people physically and/or mentally \nGoals: take their time sadistically killing a target"
+            ]
+        },
+        {
+            "name": "menaceChar",
+            "entries": [
+                "Other names: the Lost Boys \n1) Psychopathic in the use of violence  \n2) Instead of hunting, they pick a place (e.g. a tavern) to rampage and destroy \n3) Unconcerned about discovery or capture \nGoals: rampaging in a small area as along as feasible"
+            ]
+        },
+        {
+            "name": "completemonsterChar",
+            "entries": [
+                "Other names: spree killer \n1) Lowest rung of sadism \n2) No redeeming qualities \n3) Never stop rampaging and killing \n4) Target entire villages and kill, torture, and prolong deaths of every living thing there \n5) Cannot be reasoned with \nGoals: torture murdering every liviing thing on the planet\nNotes: This is a very difficult type to write about and generate way too many triggers."
             ]
         },
         {
