@@ -128,7 +128,10 @@
                     "m": 1,
                     "v": "The Unhinged \n\n{unhingedChar}"
                 },
-                "The Vengeful Villain",
+                {
+                    "m": 1,
+                    "v": "The Vengeful Villain \n\n{vengefulChar}"
+                },
                 "The Victim"
             ]
         },
@@ -451,6 +454,12 @@
             "name": "unhingedChar",
             "entries": [
                 "Other names: {unhingedAssoc} \n1) Might need a shell persona to hide the insanity of this villain \n2) Motives of their actions often make little sense \n3) Probably a monster created by monsters in childhood \n4) May oppose hero just because... \nGoals: not predictable, although it will involve hurting/destroying the hero specifically"
+            ]
+        },
+        {
+            "name": "vengefulChar",
+            "entries": [
+                "Other names: vigilante, punisher \n1) Feels wronged by someone or society and cannot get over it \n2) The wrong might not be somethng that makes sense to others \n3) Intentionally grew in power and wealth to be able to exact revenge on their enemies \n4) Consider themselves above societal norms or their targets beyond the ability of society to deliver justice \nGoals: obtain vengeance for a perceived injustice"
             ]
         },
         {
