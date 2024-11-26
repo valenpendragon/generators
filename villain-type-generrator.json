@@ -112,7 +112,10 @@
                     "m": 1,
                     "v": "The Minion: {minionType}"
                 },
-                "The Outsider",
+                {
+                    "m": 1,
+                    "v":"The Outsider \n\n{outsiderChar}"
+                },
                 {
                     "m": 1,
                     "v": "The Savage Predator: {predatorType}"
@@ -390,6 +393,12 @@
             ]
         },
         {
+            "name": "outsiderChar",
+            "entries": [
+                "Other names: outcast, hermit, outsider \n1) Seems like a decent person but will not join new groups \n2) Pines for old life before being 'unjustly' exiled \n3) Mask eventually slips, revealing why they were exiled \n4) A little investigation by a party could reveal the true depths of their depravity \n{outsiderGoals}"
+            ]
+        },
+        {
             "name": "fataleAssoc",
             "entries": [
                 "seductress, Goddess, enchantress, black widow, courtesan, gigolo, swindlers, con-artists, Don Juan, honey traps, psychic or physical vampires"
@@ -411,6 +420,12 @@
             "name": "manificentbastardGoals",
             "entries": [
                 "Goals: World Domination but via a very slow and enjoyable route."
+            ]
+        },
+        {
+            "name": "outsiderGoals",
+            "entries": [
+                "Goals: Pick 1+ from the following: \n1) Seeks horrific ritual sacrifices \n2) Is in fact a cannibal or eats humanoids outside their species \n3) Extreme xenophobe who wants to eliminate certain groups or species \n4) Redemption at any cost and will sacrifice anyone to get it"
             ]
         }
     ]
