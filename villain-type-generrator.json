@@ -126,7 +126,7 @@
                 },
                 {
                     "m": 1,
-                    "v": "The Mastermind: {mastermindType} \n\nBig Bad Traits: \n{bigbadChar} \nMastermind Traits: "
+                    "v": "The Mastermind: {mastermindType} \n\nBig Bad Traits: \n{bigbadChar}"
                 },
                 {
                     "m": 1,
@@ -154,9 +154,17 @@
         {
             "name": "mastermindType",
             "entries": [
-                "The Pusher or Corrupter",
-                "No subtype"
+                {
+                    "m": 1,
+                    "v": "No subtype \n\n{mastermindChar}"
+                },
+                {
+                    "m": 1,
+                    "v": "The Pusher or Corrupter \n\n{corruptorsubtypeChar}"
+                }
             ]
+                
+                
         },
         {
             "name": "predatorType",
@@ -332,6 +340,18 @@
             "name": "magnificentbastardChar",
             "entries": [
                 "* Competent as the Dragon \n* Ruthless as the Sadist Predator \nMastermind \nPuppetmaster \n{devilTraits} \n{manificentbastardGoals}"
+            ]
+        },
+        {
+            "name": "mastermindChar",
+            "entries": [
+                "Other names: the ring master, the brain, the chess-master, the puppet-master, the mad scientist, evil genius \n1) Often the Big Bad while the Dragon runs things \n2) Intellectually superior to everyone beyond even the Lethal Plotter \n3) Enjoys beating heroes who challenge them \n4) Leaves cryptic clues to daught the heroes \n5) Puts out puzzles with ridiculously short times to complete them \nGoals: prove their superiority while wiping out challengers"
+            ]
+        },
+        {
+            "name": "corruptorsubtypeChar",
+            "entries": [
+                "Other names: the puppet-master \n1) Often the Big Bad while the Dragon runs things \n2) Intellectually superior to everyone beyond even the Lethal Plotter \n3) Focuses on corrupting other villains into doing their bidding \n4) Inevitably will try to corrupt everyone, heroes included \nGoals: prove their superiority by corrupting and dominating the entire world"
             ]
         },
         {
