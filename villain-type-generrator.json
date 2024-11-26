@@ -121,7 +121,7 @@
                     "v": "The Savage Predator: {predatorType}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "The Traitor \n\n{traitorChar}"
                 },
                 "The Unhinged",
