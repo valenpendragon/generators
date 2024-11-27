@@ -34,7 +34,7 @@
                 },
                 {
                     "m": 2,
-                    "v": "{i|The Big Bad}: {bigbadSubtype}"
+                    "v": "{i|The Big Bad}: {bigbadType}"
                 },
                 {
                     "m": 4,
@@ -139,7 +139,7 @@
             ]
         },
         {
-            "name": "bigbadSubtype",
+            "name": "bigbadType",
             "entries": [
                 {
                     "m": 3,
@@ -147,11 +147,11 @@
                 },
                 {
                     "m": 2,
-                    "v": "The Mastermind: {mastermindType} \n\nBig Bad Traits: \n{bigbadChar}"
+                    "v": "The Mastermind: {mastermindType} \n\n{bi|Big Bad Traits}: \n{bigbadChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Lethal Plotter \n\nBig Bad Traits: \n{bigbadChar} \nLethal Plotter Traits: \n{lethalplotterChar}"
+                    "v": "The Lethal Plotter \n\n{i|Big Bad Traits}: \n{bigbadChar} \n{bi|Lethal Plotter Traits}: \n{lethalplotterChar}"
                 }
             ]
         },
@@ -164,11 +164,11 @@
                 },
                 {
                     "m": 1,
-                    "V": "The Femme/Homme Fatale \n\nDespot Traits: \n{despotChar} \nFemme/Homme Fatale Traits: \n{fataleChar}"
+                    "V": "The Femme/Homme Fatale \n\n{bi|Despot Traits}: \n{despotChar} \n{bi|Femme/Homme Fatale Traits}: \n{fataledespotChar}"
                 },
                 {
                     "m": 1,
-                    "V": "The World Dominator \n\nDespot Traits: \n{despotChar} \nWorld Dominator Goals: {worlddominatorChar}"
+                    "V": "The World Dominator \n\n{bi|Despot Traits}: \n{despotChar} \n{bi|World Dominator Goals}: {worlddominatorChar}"
                 }
             ]
         },
@@ -193,8 +193,8 @@
                     "v": "No subtype \n\n{minionChar}"
                 },
                 {
-                    "m": 1,
-                    "v": "Sports Villain \n\nMinion Traits: \n{minionChar} \nSports Villain Traits: \n{sportsChar}"
+                    "m": 2,
+                    "v": "Sports Villain \n\n{bi|Minion Traits}: \n{minionChar} \n{bi|Sports Villain Traits}: \n{sportsChar}"
                 }
             ]
         },
@@ -207,15 +207,15 @@
                 },
                 {
                     "m": 1,
-                    "v": "The Schadenfreude \n\nCommon Predator Traits: \n{predatorChar} \nSchadenfreude unique traits: \n{schadenfreudeChar}"
+                    "v": "The Schadenfreude \n\n{bi|Common Predator Traits}: \n{predatorChar} \n{bi|Schadenfreude Unique Traits}: \n{schadenfreudeChar}"
+                },
+                {
+                    "m": 3,
+                    "v": "The Menace \n\n{bi|Common Predator Traits}: \n{predatorChar} \n{bi|Menace Unique Traits}: \n{menaceChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Menace \n\nCommon Predator Traits: \n{predatorChar} \nMenace unique traits: \n{menaceChar}"
-                },
-                {
-                    "m": 1,
-                    "v": "The Complete Monster\n\nCommon Predator Traits: \n{predatorChar} \nComplete Monster unique traits: \n{completemonsterChar}"
+                    "v": "The Complete Monster\n\n{bi|Common Predator Traits}: \n{predatorChar} \n{bi|Complete Monster Unique Traits}: \n{completemonsterChar}"
                 }
             ]
         },
@@ -228,7 +228,7 @@
                 },
                 {
                     "m": 2,
-                    "v": "Subcommander Dragon \n\nDragon Traits: \n{dragonChar} \nSubcommander Traits: \n{capodragonChar}"
+                    "v": "Subcommander Dragon \n\n{bi|Dragon Traits}: \n{dragonChar} \n{bi|Subcommander Traits}: \n{capodragonChar}"
                 }
             ]
         },
@@ -241,11 +241,11 @@
                 },
                 {
                     "m": 1,
-                    "v": "Cult Leader \n\nFanatic Traits: \n{fanaticChar} \nCult Leader Traits: \n{cultleaderChar}"
+                    "v": "Cult Leader \n\n{bi|Fanatic Traits}: \n{fanaticChar} \n{bi|Cult Leader Traits}: \n{cultleaderChar}"
                 },
                 {
                     "m": 2,
-                    "v": "Serial Killer \n\nFanatic Traits: \n{fanaticChar} \nSerial Killer Traits: \n{serialkillerChar}"
+                    "v": "Serial Killer \n\n{bi|Fanatic Traits}: \n{fanaticChar} \n{bi|Serial Killer Traits}: \n{serialkillerChar}"
                 },
             ]
         },
@@ -316,6 +316,12 @@
             ]
         },
         {
+            "name": "fataledespotChar",
+            "entries": [
+                "1) Preys on their gender preference to seduce them \n2) Drains their 'paramours' financially and possibly literally (vampires) \n{b|Goals}: power over their gender preferences, money"
+            ]
+        },
+        {
             "name": "worlddominatorChar",
             "entries": [
                 "ultimate power over an entire world, multiple worlds, a plane, multiple planes, or a multiverse"
@@ -360,7 +366,7 @@
         {
             "name": "fataleChar",
             "entries": [
-                "{b|Other names}: {fataleAssoc}  \n1) Preys on their gender preference to seduce them \n2) Drains their 'paramours' financially and possibly literally (vampires) \n3) They can work for heroes or villains, often in espionage \nGoals: power over their gender preferences, money, and power\n{b|Notes}: One of the few archetypes to appear in Joseph Campbell's work."
+                "{b|Other names}: {fataleAssoc}  \n1) Preys on their gender preference to seduce them \n2) Drains their 'paramours' financially and possibly literally (vampires) \n3) They can work for heroes or villains, often in espionage \n{b|Goals}: power over their gender preferences, money \n{b|Notes}: One of the few archetypes to appear in Joseph Campbell's work."
             ]
         },
         {
@@ -426,7 +432,7 @@
         {
             "name": "predatorChar",
             "entries": [
-                "{b|Other names}: the sadist, the menace, barbarian \n1) Consumed by bloodlust \n2) Fights and kills for sport without regret or remorse \n3) Enjoys using their hunting skills to violently and brutally kill, often turning it into games \n4) If unable to setup own games, will hire out as a mercenary or assassin \n{b|Goals}: to kill, maim, and destory for sport"
+                "{b|Other names}: the sadist, the menace, barbarian \n1) Consumed by bloodlust \n2) Fights and kills for sport without regret or remorse \n3) Enjoys using their hunting skills to violently and brutally kill, often turning it into games \n4) If unable to setup their own games, will hire out as a mercenary or assassin \n{b|Goals}: to kill, maim, and destory for sport"
             ]
         },
         {
