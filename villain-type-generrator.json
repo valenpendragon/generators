@@ -251,7 +251,7 @@
         {
             "name": "authorityChar",
             "entries": [
-                "{b|Other names}: Career Bitch, The Abusive Autocrat, Dictator \n1) Corporate Climber with no morals or loyalty \n2) Holds on to power at any cost \n2) Collects sycophants who protect them \nGoal: climb to the top and stay there"
+                "{b|Other names}: Career Bitch, The Abusive Autocrat, Dictator \n1) Corporate Climber with no morals or loyalty \n2) Holds on to power at any cost \n2) Collects sycophants who protect them \n{b|Goals}: climb to the top and stay there"
             ]
         },
         {
@@ -371,7 +371,7 @@
         {
             "name": "frenemyChar",
             "entries": [
-                "{b|Other names}: Pseudo-Buddy, Nemesis, Arch-Enemy, Psycho-Nanny, Psycho-Roommate \n1) Always appears as an ally to the hero while working against them \n2) Motivated by jealoousy or envy of the hero \n3) Highly emotional situations can make this villain's mask of caring slip or break \nGoals: destroy the hero from within"
+                "{b|Other names}: Pseudo-Buddy, Nemesis, Arch-Enemy, Psycho-Nanny, Psycho-Roommate \n1) Always appears as an ally to the hero while working against them \n2) Motivated by jealoousy or envy of the hero \n3) Highly emotional situations can make this villain's mask of caring slip or break \n{b|Goals}: destroy the hero from within"
             ]
         },
         {
