@@ -146,7 +146,7 @@
                 },
                 {
                     "m": 2,
-                    "v": "The Mastermind: {mastermindType} \n\n{bi|Big Bad Traits}: \n{bigbadChar}"
+                    "v": "The Mastermind: {mastermindType} \n{bi|Big Bad Traits}: \n{bigbadChar}"
                 },
                 {
                     "m": 1,
@@ -395,7 +395,7 @@
         {
             "name": "mastermindChar",
             "entries": [
-                "{b|Other names}: the ring master, the brain, the chess-master, the puppet-master, the mad scientist, evil genius \n1) Often the Big Bad while the Dragon runs things \n2) Intellectually superior to everyone beyond even the Lethal Plotter \n3) Enjoys beating heroes who challenge them \n4) Leaves cryptic clues to daunt the heroes \n5) Puts out puzzles with ridiculously short times to complete them \n{b|Goals}: prove their superiority while wiping out challengers"
+                "{b|Other names}: the ring master, the brain, the chess-master, the puppet-master, the mad scientist, evil genius \n1) Intellectually superior to everyone beyond even the Lethal Plotter \n2) Enjoys beating heroes who challenge them \n3) Leaves cryptic clues to daunt the heroes \n4) Puts out puzzles with ridiculously short times to complete them \n{b|Goals}: prove their superiority while wiping out challengers"
             ]
         },
         {
