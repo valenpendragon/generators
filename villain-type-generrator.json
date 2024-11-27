@@ -26,115 +26,115 @@
             "entries": [
                 {
                     "m": 4,
-                    "v": "The Abusive Authority Figure \n\n{authorityChar}"
+                    "v": "{i|The Abusive Authority Figure} \n\n{authorityChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Beast \n\n{beastChar}"
+                    "v": "{i|The Beast} \n\n{beastChar}"
                 },
                 {
                     "m": 2,
-                    "v": "The Big Bad: {bigbadSubtype}"
+                    "v": "{i|The Big Bad}: {bigbadSubtype}"
                 },
                 {
                     "m": 4,
-                    "v": "The Bully \n\n{bullyChar}"
+                    "v": "{i|The Bully} \n\n{bullyChar}"
                 },
                 {
                     "m": 4,
-                    "v": "The Corrupted \n\n{corruptedChar}"
+                    "v": "{i|The Corrupted} \n\n{corruptedChar}"
                 },
                 {
                     "m": 3,
-                    "v": "The Career Criminal \n\n{criminalChar}"
+                    "v": "{i|The Career Criminal} \n\n{criminalChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Dark Knight \n\n{darkknightChar}"
+                    "v": "{i|The Dark Knight} \n\n{darkknightChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Disposed Heir \n\n{disposedheirChar}"
+                    "v": "{i|The Disposed Heir} \n\n{disposedheirChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Desperado \n\n{desperadoChar}"
+                    "v": "{i|The Desperado} \n\n{desperadoChar}"
                 },
                 {
                     "m": 2,
-                    "v": "The Despot: {despotType}"
+                    "v": "{i|The Despot}: {despotType}"
                 },
                 {
                     "m": 1,
-                    "v": "The Devil Incarnate \n\n{devilChar}"
+                    "v": "{i|The Devil Incarnate} \n\n{devilChar}"
                 },
                 {
                     "m": 3,
-                    "v": "The Dragon: {dragonType}"
+                    "v": "{i|The Dragon}: {dragonType}"
                 },
                 {
                     "m": 1,
-                    "v": "The Equal \n\n{equalChar}"
+                    "v": "{i|The Equal} \n\n{equalChar}"
                 },
                 {
                     "m": 4,
-                    "v": "The Fanatic: {fanaticType}"
+                    "v": "{i|The Fanatic}: {fanaticType}"
                 },
                 {
                     "m": 2,
-                    "v": "The Femme/Homme Fatale \n\n{fataleChar}"
+                    "v": "{i|The Femme/Homme Fatale} \n\n{fataleChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Killer Frenemy \n\n{frenemyChar}"
+                    "v": "{i|The Killer Frenemy} \n\n{frenemyChar}"
                 },
                 {
                     "m": 2,
-                    "v": "The Lethal Plotter \n\n{lethalplotterChar}"
+                    "v": "{i|The Lethal Plotter} \n\n{lethalplotterChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Machine \n\n{machineChar}"
+                    "v": "{i|The Machine} \n\n{machineChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Magnificent Bastard \n\n{magnificentbastardChar}"
+                    "v": "{i|The Magnificent Bastard} \n\n{magnificentbastardChar}"
                 },
                 {
                     "m": 3,
-                    "v": "The Mastermind: {mastermindType}"
+                    "v": "{i|The Mastermind}: {mastermindType}"
                 },
                 {
                     "m": 4,
-                    "v": "The Matriarchal/Patriarchal Oppressor \n\n{clanoppressorChar}"
+                    "v": "{i|The Matriarchal/Patriarchal Oppressor} \n\n{clanoppressorChar}"
                 },
                 {
                     "m": 5,
-                    "v": "The Minion: {minionType}"
+                    "v": "{i|The Minion}: {minionType}"
                 },
                 {
                     "m": 1,
-                    "v":"The Outsider \n\n{outsiderChar}"
+                    "v":"{i|The Outsider} \n\n{outsiderChar}"
                 },
                 {
                     "m": 2,
-                    "v": "The Savage Predator: {predatorType}"
+                    "v": "{i|The Savage Predator}: {predatorType}"
                 },
                 {
                     "m": 1,
-                    "v": "The Traitor \n\n{traitorChar}"
+                    "v": "{i|The Traitor} \n\n{traitorChar}"
                 },
                 {
                     "m": 1,
-                    "v": "The Unhinged \n\n{unhingedChar}"
+                    "v": "{i|The Unhinged} \n\n{unhingedChar}"
                 },
                 {
                     "m": 3,
-                    "v": "The Vengeful Villain \n\n{vengefulChar}"
+                    "v": "{i|The Vengeful Villain} \n\n{vengefulChar}"
                 },
                 {
                     "m": 2,
-                    "v":"The Victim \n\n{victimChar}"
+                    "v":"{i|The Victim} \n\n{victimChar}"
                 }
             ]
         },
