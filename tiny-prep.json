@@ -133,19 +133,19 @@
             "name": "refineItem",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Add something to a character's profile"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Refine an existing item"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Refine an existing character/being"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Refine a location"
                 },
                 {
@@ -153,7 +153,7 @@
                     "v": "Write a set of clues: {dice:2d4+8} total"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Refine an existing 5RD or expand it with a second 5RD."
                 }
             ]
