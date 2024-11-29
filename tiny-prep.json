@@ -1,8 +1,12 @@
 {
-    "name": "Tiny Prep Generator v1.5.0",
+    "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to prepType options.",
+        "Add weights to polishItem.",
+        "Add weights to lineBlock.",
+        "Add weights to newItem.",
+        "Add weights to refineItem.",
+        "Add weights to writeLore.",
         "Adjust weights based on current campaign status.",
         "Consider which additional tables need weights added for the same reason."
     ],
@@ -10,15 +14,42 @@
         {
             "name": "prepType",
             "entries": [
-                "Update my Plotline based on the current vector of gameplay and what doors opened and/or closed last session ",
-                "Update a Character Loop or Loopy Plans and spin out new plot threads from Plot ",
-                "Build a new Campaign Logger Generator for instances where I drew a blank on next steps, improvisation, or friction last session ",
-                "Polish/Build/Polish: {polishItem}",
-                "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}",
-                "Create something completely new: {newItem}",
-                "Refine something already in the world: {refineItem}",
-                "Draw a Map or create a token for VTT use.",
-                "Write lore: {writeLore}"
+                {
+                    "m": 1,
+                    "v": "Update my Plotline based on the current vector of gameplay and what doors opened and/or closed last session "
+                },
+                {
+                    "m": 1,
+                    "v": "Update a Character Loop or Loopy Plans and spin out new plot threads from Plot "
+                },
+                {
+                    "m": 1,
+                    "v": "Build a new Campaign Logger Generator for instances where I drew a blank on next steps, improvisation, or friction last session "
+                },
+                {
+                    "m": 1,
+                    "v": "Polish/Build/Polish: {polishItem}"
+                },
+                {
+                    "m": 1,
+                    "v": "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}"
+                },
+                {
+                    "m": 1,
+                    "v": "Create something completely new: {newItem}"
+                },
+                {
+                    "m": 1,
+                    "v": "Refine something already in the world: {refineItem}"
+                },
+                {
+                    "m": 1,
+                    "v": "Draw a Map or create a token for VTT use."
+                },
+                {
+                    "m": 1,
+                    "v": "Write lore: {writeLore}"
+                }
             ]
         },
         {
