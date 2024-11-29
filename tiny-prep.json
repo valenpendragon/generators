@@ -2,7 +2,6 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to polishItem.",
         "Add weights to lineBlock.",
         "Add weights to newItem.",
         "Add weights to refineItem.",
@@ -27,7 +26,7 @@
                     "v": "Build a new Campaign Logger Generator for instances where I drew a blank on next steps, improvisation, or friction last session "
                 },
                 {
-                    "m": 1,
+                    "m": 100,
                     "v": "Polish/Build/Polish: {polishItem}"
                 },
                 {
@@ -55,14 +54,38 @@
         {
             "name": "polishItem",
             "entries": [
-                "First encounter for a session",
-                "5RD for a session",
-                "3 Round Combat Plan for an Encounter",
-                "Hooks",
-                "Twists",
-                "Loops",
-                "Item",
-                "NPC/Creature"
+                {
+                    "m": 1,
+                    "v": "First encounter for a session"
+                },
+                {
+                    "m": 1,
+                    "v": "5RD for a session"
+                },
+                {
+                    "m": 1,
+                    "v": "3 Round Combat Plan for an Encounter"
+                },
+                {
+                    "m": 1,
+                    "v": "Hooks"
+                },
+                {
+                    "m": 1,
+                    "v": "Twists"
+                },
+                {
+                    "m": 1,
+                    "v": "Loops"
+                },
+                {
+                    "m": 1,
+                    "v": "Item"
+                },
+                {
+                    "m": 1,
+                    "v": "NPC/Creature"
+                }
             ]
         },
         {
