@@ -116,15 +116,15 @@
                     "v": "Create a new Location"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Add a new legendary object to the world"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Add a new generator (python or CL) to help future prep"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Add a new 5RD"
                 }
             ]
