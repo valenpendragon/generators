@@ -122,6 +122,10 @@
                 {
                     "m": 1,
                     "v": "Add a new generator (python or CL) to help future prep"
+                },
+                {
+                    "m": 1,
+                    "v": "Add a new 5RD"
                 }
             ]
         },
@@ -147,6 +151,10 @@
                 {
                     "m": 1,
                     "v": "Write a set of clues: {dice:2d4+8} total"
+                },
+                {
+                    "m": 1,
+                    "v": "Refine an existing 5RD or expand it with a second 5RD."
                 }
             ]
         },
