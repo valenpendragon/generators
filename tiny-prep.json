@@ -37,7 +37,7 @@
                     "v": "Refine something already in the world: {refineItem}"
                 },
                 {
-                    "m": 10,
+                    "m": 5,
                     "v": "Draw a Map or create a token for VTT use."
                 },
                 {
@@ -50,7 +50,7 @@
             "name": "polishItem",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "First encounter for a session"
                 },
                 {
@@ -58,27 +58,27 @@
                     "v": "5RD for a session"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "3 Round Combat Plan for an Encounter"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Hooks"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Twists"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "Loops"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Item"
                 },
                 {
-                    "m": 1,
+                    "m": 2,
                     "v": "NPC/Creature"
                 }
             ]
