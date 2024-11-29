@@ -2,7 +2,6 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to writeLore.",
         "Adjust weights based on current campaign status.",
         "Consider which additional tables need weights added for the same reason."
     ],
@@ -35,7 +34,7 @@
                     "v": "Create something completely new: {newItem}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "Refine something already in the world: {refineItem}"
                 },
                 {
@@ -151,11 +150,26 @@
         {
             "name": "writeLore",
             "entries": [
-                "Distant history",
-                "Recent history",
-                "Legendary story",
-                "Character backstory",
-                "Local bedtime stories"
+                {
+                    "m": 1,
+                    "v":"Distant history"
+                },
+                {
+                    "m": 1,
+                    "v":"Recent history"
+                },
+                {
+                    "m": 1,
+                    "v":"Legendary story"
+                },
+                {
+                    "m": 1,
+                    "v":"Character backstory"
+                },
+                {
+                    "m": 1,
+                    "v":"Local bedtime stories"
+                }
             ]
         }
     ]
