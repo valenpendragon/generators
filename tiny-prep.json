@@ -162,24 +162,24 @@
             "name": "writeLore",
             "entries": [
                 {
-                    "m": 1,
-                    "v":"Distant history"
+                    "m": 2,
+                    "v":"Distant history (use something from generated timeline)"
                 },
                 {
-                    "m": 1,
-                    "v":"Recent history"
+                    "m": 3,
+                    "v":"Recent history (use something from generated timeline)"
                 },
                 {
                     "m": 1,
                     "v":"Legendary story"
                 },
                 {
-                    "m": 1,
-                    "v":"Character backstory"
+                    "m": 3,
+                    "v":"Character backstory (cross reference backstory generation with generated timeline)"
                 },
                 {
                     "m": 1,
-                    "v":"Local bedtime stories"
+                    "v":"Local bedtime stories (check legendary stories and history for awful option)"
                 }
             ]
         }
