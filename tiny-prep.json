@@ -118,6 +118,10 @@
                 {
                     "m": 1,
                     "v": "Add a new legendary object to the world"
+                },
+                {
+                    "m": 1,
+                    "v": "Add a new generator (python or CL) to help future prep"
                 }
             ]
         },
