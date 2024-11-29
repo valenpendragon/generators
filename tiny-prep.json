@@ -38,8 +38,8 @@
                     "v": "Refine something already in the world: {refineItem}"
                 },
                 {
-                    "m": 5,
-                    "v": "Draw a Map or create a token for VTT use."
+                    "m": 15,
+                    "v": "Do some VTT work: {vttItem}"
                 },
                 {
                     "m": 10,
@@ -156,6 +156,47 @@
                 {
                     "m": 2,
                     "v": "Refine an existing 5RD or expand it with a second 5RD."
+                }
+            ]
+        },
+        {
+            "name": "vttItem",
+            "entries": [
+                {
+                    "m": 1,
+                    "v": "Begin or complete a new map"
+                },
+                {
+                    "m": 1,
+                    "v": "Create a character token"
+                },
+                {
+                    "m": 1,
+                    "v": "Practice a combat of some kind (use combat-modeler)"
+                },
+                {
+                    "m": 1,
+                    "v": "Migrate or update a character sheet to VTT"
+                },
+                {
+                    "m": 1,
+                    "v": "Start a new scene in VTT"
+                },
+                {
+                    "m": 1,
+                    "v": "Migrate or update an item in VTT"
+                },
+                {
+                    "m": 1,
+                    "v": "Migrate or update a feat in VTT"
+                },
+                {
+                    "m": 1,
+                    "v": "Practice an encounter in VTT (use combat-modeler)"
+                },
+                {
+                    "m": 1,
+                    "v": "Migrate a table to VTT"
                 }
             ]
         },
