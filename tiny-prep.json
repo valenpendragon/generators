@@ -87,7 +87,7 @@
             "name": "lineBlock",
             "entries": [
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "NPC (general)"
                 },
                 {
@@ -95,15 +95,15 @@
                     "v": "Object"
                 },
                 {
-                    "m": 1,
+                    "m": 4,
                     "v": "Enemy NPC/creature"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Loot item"
                 },
                 {
-                    "m": 1,
+                    "m": 3,
                     "v": "Room for a dungeon map"
                 }
             ]
