@@ -2,7 +2,6 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to lineBlock.",
         "Add weights to newItem.",
         "Add weights to refineItem.",
         "Add weights to writeLore.",
@@ -26,11 +25,11 @@
                     "v": "Build a new Campaign Logger Generator for instances where I drew a blank on next steps, improvisation, or friction last session "
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "Polish/Build/Polish: {polishItem}"
                 },
                 {
-                    "m": 1,
+                    "m": 100,
                     "v": "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}"
                 },
                 {
@@ -91,11 +90,26 @@
         {
             "name": "lineBlock",
             "entries": [
-                "NPC (general)",
-                "Object",
-                "Enemy NPC/creature",
-                "Loot item",
-                "Room for a dungeon map"
+                {
+                    "m": 1,
+                    "v": "NPC (general)"
+                },
+                {
+                    "m": 1,
+                    "v": "Object"
+                },
+                {
+                    "m": 1,
+                    "v": "Enemy NPC/creature"
+                },
+                {
+                    "m": 1,
+                    "v": "Loot item"
+                },
+                {
+                    "m": 1,
+                    "v": "Room for a dungeon map"
+                }
             ]
         },
         {
