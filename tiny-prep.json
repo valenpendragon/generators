@@ -2,7 +2,6 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to refineItem.",
         "Add weights to writeLore.",
         "Adjust weights based on current campaign status.",
         "Consider which additional tables need weights added for the same reason."
@@ -32,11 +31,11 @@
                     "v": "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "Create something completely new: {newItem}"
                 },
                 {
-                    "m": 1,
+                    "m": 100,
                     "v": "Refine something already in the world: {refineItem}"
                 },
                 {
@@ -127,11 +126,26 @@
         {
             "name": "refineItem",
             "entries": [
-                "Add something to an character's profile",
-                "Refine an existing item",
-                "Refine an existing character/being",
-                "Refine a location",
-                "Write a set of clues: {dice:2d4+8}"
+                {
+                    "m": 1,
+                    "v": "Add something to an character's profile"
+                },
+                {
+                    "m": 1,
+                    "v": "Refine an existing item"
+                },
+                {
+                    "m": 1,
+                    "v": "Refine an existing character/being"
+                },
+                {
+                    "m": 1,
+                    "v": "Refine a location"
+                },
+                {
+                    "m": 1,
+                    "v": "Write a set of clues: {dice:2d4+8} total"
+                }
             ]
         },
         {
