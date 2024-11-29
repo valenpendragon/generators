@@ -2,8 +2,7 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Adjust weights based on current campaign status.",
-        "Consider which additional tables need weights added for the same reason."
+        "Adjust weights based on current campaign status."
     ],
     "tables": [
         {
