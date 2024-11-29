@@ -2,7 +2,6 @@
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
     "to do": [
-        "Add weights to newItem.",
         "Add weights to refineItem.",
         "Add weights to writeLore.",
         "Adjust weights based on current campaign status.",
@@ -29,11 +28,11 @@
                     "v": "Polish/Build/Polish: {polishItem}"
                 },
                 {
-                    "m": 100,
+                    "m": 1,
                     "v": "Create 3-Line or 4-Line blocks for anything I need for next session: {lineBlock}"
                 },
                 {
-                    "m": 1,
+                    "m": 100,
                     "v": "Create something completely new: {newItem}"
                 },
                 {
@@ -115,10 +114,14 @@
         {
             "name": "newItem",
             "entries": [
-                "Create a new Location",
-                "Add a new 3-Line or 4-Line character",
-                "Add a new 3-Line of 4-Line object to the world",
-                "Add a new legendary object to the world"
+                {
+                    "m": 1,
+                    "v": "Create a new Location"
+                },
+                {
+                    "m": 1,
+                    "v": "Add a new legendary object to the world"
+                }
             ]
         },
         {
