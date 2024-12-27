@@ -3,6 +3,9 @@
     "resultPattern": "{b|Villain Type}: {villainType}.",
     "explanation": "This generator produces a quick personality for a new villain based on villain archetype.",
     "source": "Villain archetypes and descriptions adapted from 'The Villain: Archetypes', by Word Hunter (WordPress) 8/8/2016.",
+    "categories": [
+        "NPCs"
+    ],
     "to do": [
         "Add Wants and Desires",
         "Add Fears",
