@@ -2,8 +2,10 @@
     "name": "Marissette Village Encounter Generator",
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
+    "path": "release",
     "categories": [
-        "encounters"
+        "encounters",
+        "todos"
     ],
     "to do": [
         "Add new undead creatures to this list.",

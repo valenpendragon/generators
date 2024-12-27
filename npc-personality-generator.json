@@ -2,9 +2,9 @@
     "name": "Quick Basic NPC Generator",
     "resultPattern": "NPC Generator",
     "explanation": "This generator quickly generates some ideas for the personality of an NPC.",
+    "path": "backlog-only",
     "categories": [
-        "todos only",
-        "NPCs"
+        "development"
     ],
     "to do": [
         "Generate Wants and Desires",

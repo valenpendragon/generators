@@ -1,9 +1,11 @@
 {
     "name": "Tiny Prep Generator v2.0.0b1",
     "resultPattern": "Perform: {prepType}",
-    "explaination": "This is my tiny prep generator for times when I am at a loss on what to work on. It has weights to ensure I work on things more in line with my creative preferences.",
+    "explanation": "This is my tiny prep generator for times when I am at a loss on what to work on. It has weights to ensure I work on things more in line with my creative preferences.",
+    "path": "beta",
     "categories": [
-        "prep help"
+        "prep help",
+        "todos"
     ],
     "to do": [
         "Adjust weights based on current campaign status."

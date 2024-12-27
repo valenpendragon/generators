@@ -4,6 +4,7 @@
     "explanation": "This is a quick way to make new TFT characters using methods suggested in the rulebook.",
     "authors": "valenpendragon based loosely on tables included in The Fantasy Trip, copyright Steve Jackson Games.",
     "license": "Creative Commons 4.0. Attribution should include",
+    "path": "release",
     "categories": [
         "NPCs",
         "the fantasy trip"

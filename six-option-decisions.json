@@ -2,6 +2,7 @@
     "name": "Six Option Decisions Generator",
     "resultPattern": "NPC Decision: \n\nNeutral: \t{neutralResult}\n\nNegative: \t{negativeResult}\n\nPositive: \t{positiveResult}",
     "explanation": "Models an NPC decision using Negative (3d6-3), Neutral (3d6), or Positive (3d6+3) with answers 'No, And', 'No', 'No but', 'Yes but', 'Yes', and 'Yes And'.",
+    "path": "release",
     "categories": [
         "NPCs",
         "encounters"

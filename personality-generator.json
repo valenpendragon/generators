@@ -2,6 +2,7 @@
     "name": "Big Five Personality Generator",
     "resultPattern": "{b|Imagination:} {imaginationResult}.\n{b|Prudence:} {prudenceResult}.\n{b|Sociability:} {sociabilityResult}.\n{b|Agreeableness:} {agreeablenessResult}.\n{b|Temperament:} {temperamentResult}.",
     "explanation": "This generator uses the big five personality model to quickly generate a peronality that is not governed by alignment. The options for each category use 2d6.",
+    "path": "release",
     "categories": [
         "NPCs"
     ],
