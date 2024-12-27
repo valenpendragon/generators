@@ -4,7 +4,8 @@
     "author": "ExileInParadise",
     "path": "",
     "categories": [
-        "@ NPCs"
+        "characters",
+        "NPCs"
     ],
     "formatting": "Old",
     "resultPattern": "{Social Role}",

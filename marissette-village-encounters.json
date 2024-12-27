@@ -2,7 +2,12 @@
     "name": "Marissette Village Encounter Generator",
     "resultPattern": "Encounter: {encounterResult}",
     "explanation": "list of undead creatures in encounter",
+    "categories": [
+        "encounters"
+    ],
     "to do": [
+        "Add new undead creatures to this list.",
+        "Add new zone split between outer and inner areas (easy vs hard)"
         ],
     "tables": [
         {
